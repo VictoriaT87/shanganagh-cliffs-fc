@@ -11,24 +11,67 @@ body {
     font-weight: 100;
 }
 
-#header-left {
-    width: 33%;
-    float: left;
-}
-
-#header-right {
-    width: 33%;
-    float: right;
+header {
+    background-color: #111111;
 }
 
 #header-center {
     width: 33%;
     margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#header-center h1 {
+    color: #fff;
+    text-align: center;
+    
 }
 
 #logo-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
+
+#menu {
+    width: 100%;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    background-color: #111111;
+}
+
+#menu ul {
+    text-align: center;
+    padding: 20px;
+}
+
+#menu li {
+    width: 20%;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
+/* #hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/squad-main.jpg') no-repeat center center;
+    background-size: 100%;
+    padding-top: 12%;
+
+} */
