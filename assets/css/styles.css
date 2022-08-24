@@ -9,6 +9,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
+    font-size: 110%;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 25%;
 }
 
 #menu {
@@ -67,11 +68,47 @@ header {
     border-bottom: 1px solid #fff;
 }
 
-/* #hero-image {
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/squad-main.jpg') no-repeat center center;
     background-size: 100%;
     padding-top: 12%;
+}
 
-} */
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#welcome h1 {
+    padding-bottom: 20px;
+}
+
+#about h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+}
+
+#cover-text {
+    color: #fff;
+    text-align: center;
+    font-size: 130%;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    width: 75%;
+    height: 90px;
+    padding: 30px 20px;
+    background-color: rgba(15, 14, 14, 0.7);
+    bottom: -90px;
+    left: 15%;
+    position: absolute
+}
+
+#cover-text h2 {
+    padding-bottom: 20px;
+}
