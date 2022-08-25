@@ -6,6 +6,12 @@
     border: none;
 }
 
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
