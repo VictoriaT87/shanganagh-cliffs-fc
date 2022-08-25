@@ -78,11 +78,21 @@ header {
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
+    line-height: 2em;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #welcome h1 {
     padding-bottom: 20px;
+}
+
+#welcome p {
+    font-family: inherit;
+    padding-top: 10px;
+    font-size: 120%;
 }
 
 #about h2 {
@@ -111,4 +121,24 @@ header {
 
 #cover-text h2 {
     padding-bottom: 20px;
+}
+
+
+#fixtures {
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#fixtures div {
+    width: 23%;
+    height: 155px;
+    float: left;
+    padding: 50px 0 0 10px;
+    margin-top: 20px;
+    margin-left: 13px;
+    text-align: center;
+    border: 5px double #ccc;
+    border-radius: 15px;
 }
