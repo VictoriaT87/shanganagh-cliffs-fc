@@ -31,7 +31,7 @@ header {
 #header-center h1 {
     color: #fff;
     text-align: center;
-    
+
 }
 
 #logo-image {
@@ -120,9 +120,9 @@ header {
     height: 90px;
     padding: 30px 20px;
     background-color: rgba(15, 14, 14, 0.7);
-    bottom: -90px;
-    left: 15%;
-    position: absolute
+    bottom: -125px;
+    left: 11.5%;
+    position: absolute;
 }
 
 #cover-text h2 {
@@ -138,12 +138,12 @@ header {
 }
 
 #fixtures div {
-    width: 23%;
+    width: 20%;
     height: 155px;
     float: left;
-    padding: 50px 0 0 10px;
+    padding: 34px 0 0 0px;
     margin-top: 20px;
-    margin-left: 13px;
+    margin-left: 50px;
     text-align: center;
     border: 5px double #ccc;
     border-radius: 15px;
