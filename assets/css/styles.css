@@ -83,31 +83,33 @@ header {
 }
 
 #welcome {
-    text-align: center;
     line-height: 2em;
     padding: 20px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15%;
 }
 
-#welcome h1 {
-    padding-bottom: 20px;
+#welcome h2 {
+    padding-bottom: 1em;
+    text-align: center;
 }
+
+#welcome img {
+    position: relative;
+    float: left;
+    width: 35%;
+}
+
 
 #welcome p {
-    font-family: inherit;
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 60%;
     padding-top: 10px;
     font-size: 120%;
-}
-
-#about h2 {
-    margin: 20px 0;
-    text-align: center;
-}
-
-#about p {
-    text-align: center;
 }
 
 #cover-text {
@@ -134,7 +136,12 @@ header {
     font-size: larger;
     font-weight: 300;
     text-align: center;
-    padding-top: 20px;
+    padding: 5px;
+}
+
+#fixtures h2 {
+    text-align: center;
+    margin-top: 5%;
 }
 
 #fixtures div {
