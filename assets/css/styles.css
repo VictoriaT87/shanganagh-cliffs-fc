@@ -16,6 +16,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
     font-size: 110%;
+    /* min-height: 400px;
+    margin-bottom: 100px; */
 }
 
 header {
@@ -136,7 +138,9 @@ header {
     font-size: larger;
     font-weight: 300;
     text-align: center;
+    width: 100%;
     padding: 5px;
+    clear: both;
 }
 
 #fixtures h2 {
@@ -148,10 +152,25 @@ header {
     width: 20%;
     height: 155px;
     float: left;
-    padding: 34px 0 0 0px;
-    margin-top: 20px;
-    margin-left: 50px;
+    padding: 25px 0 20px 0;
+    margin-top: 30px;
+    margin-left: 60px;
     text-align: center;
-    border: 5px double #ccc;
+    border: 5px double #111111;
     border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #111111;
+    clear: both;
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 200px;
+    width: 100%;
+}
+
+.social-links {
+    color: #fff;
 }
