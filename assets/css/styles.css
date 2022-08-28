@@ -84,7 +84,7 @@ header {
     padding-top: 12%;
 }
 
-#welcome {
+#about {
     line-height: 2em;
     padding: 20px;
     width: 80%;
@@ -93,19 +93,19 @@ header {
     margin-bottom: 15%;
 }
 
-#welcome h2 {
+#about h2 {
     padding-bottom: 1em;
     text-align: center;
 }
 
-#welcome img {
+#about img {
     position: relative;
     float: left;
     width: 35%;
 }
 
 
-#welcome p {
+#about p {
     position: relative;
     float: right;
     text-align: center;
