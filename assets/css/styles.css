@@ -167,10 +167,28 @@ footer {
     clear: both;
     margin-top: 30px;
     padding-top: 30px;
-    height: 200px;
+    height: 150px;
     width: 100%;
 }
 
+footer p {
+    color: #ccc;
+    text-align: center;
+    font-size: 110%;
+    padding-top: 20px;
+}
+
 .social-links {
-    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+        font-size: 160%;
+        margin: 1%;
+        color: #ccc;
 }
