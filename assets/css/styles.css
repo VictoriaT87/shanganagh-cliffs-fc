@@ -56,7 +56,7 @@ header {
 }
 
 #menu li {
-    width: 20%;
+    width: 15%;
     display: inline-block;
     list-style-type: none;
     text-align: center;
@@ -91,6 +91,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15%;
+    min-height: 150px;
 }
 
 #about h2 {
@@ -131,6 +132,22 @@ header {
 
 #cover-text h2 {
     padding-bottom: 20px;
+}
+
+#news {
+    text-align: center;
+}
+
+#news h1 {
+    padding: 20px 0;
+}
+
+#news h2 {
+    padding: 20px 0;
+}
+
+#news p {
+    line-height: 30px;
 }
 
 
