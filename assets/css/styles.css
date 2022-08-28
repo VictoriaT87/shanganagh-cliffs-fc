@@ -150,6 +150,26 @@ header {
     line-height: 30px;
 }
 
+.news-article-left {
+    float: left;
+    width: 30%;
+    line-height: 50px;
+    padding: 10px;
+}
+
+.news-article-right {
+    float: right;
+    width: 30%;
+    line-height: 50px;
+    padding: 10px;
+}
+
+.news-article-center {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
 
 #fixtures {
     font-size: larger;
