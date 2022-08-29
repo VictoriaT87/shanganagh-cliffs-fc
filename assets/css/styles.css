@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -16,9 +16,9 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
     font-size: 110%;
-    /* min-height: 400px;
-    margin-bottom: 100px; */
 }
+
+/* Header Section*/
 
 header {
     background-color: #111111;
@@ -36,12 +36,16 @@ header {
 
 }
 
+/* Logo styling */
+
 #logo-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
 }
+
+/* Navigation Links */
 
 #menu {
     width: 100%;
@@ -76,43 +80,14 @@ header {
     border-bottom: 1px solid #fff;
 }
 
+/* Hero Image */
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/squad-main.jpg') no-repeat center center;
     background-size: 100%;
     padding-top: 12%;
-}
-
-#about {
-    line-height: 2em;
-    padding: 20px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15%;
-    min-height: 150px;
-}
-
-#about h2 {
-    padding-bottom: 1em;
-    text-align: center;
-}
-
-#about img {
-    position: relative;
-    float: left;
-    width: 35%;
-}
-
-
-#about p {
-    position: relative;
-    float: right;
-    text-align: center;
-    width: 60%;
-    padding-top: 10px;
-    font-size: 120%;
 }
 
 #cover-text {
@@ -134,12 +109,71 @@ header {
     padding-bottom: 20px;
 }
 
+/* Flex Container for About Section */
+
+.flex-container-about {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-image {
+    width: 45%;
+    display: flex;
+}
+
+.about-image img {
+    min-width: 0;
+}
+
+.about-text {
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    font-size: 120%;
+    padding: 5%;
+    line-height: 1.5em;
+}
+
+#about h2 {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+/* News Section and Flex Conatiner*/
+
 #news {
     text-align: center;
+    margin-top: 30px;
 }
 
 #news h1 {
     padding: 20px 0;
+}
+
+.flex-container-news {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.flex-container-news div {
+    width: 30%;
+    display: flex;
+    padding: 30px;
+}
+
+.flex-container-news img {
+        min-width: 0;
+        padding-top: 25px;
+}
+
+.flex-container-news p {
+    font-size: 120%;
+    line-height: 1.5em;
 }
 
 #news h2 {
@@ -150,26 +184,11 @@ header {
     line-height: 30px;
 }
 
-.news-article-left {
-    float: left;
-    width: 30%;
-    line-height: 50px;
+hr {
     padding: 10px;
 }
 
-.news-article-right {
-    float: right;
-    width: 30%;
-    line-height: 50px;
-    padding: 10px;
-}
-
-.news-article-center {
-    width: 30%;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
+/* Flex Conatiner for Fixtures section */
 
 #fixtures {
     font-size: larger;
@@ -217,15 +236,15 @@ footer p {
 
 .social-links {
     text-align: center;
-    text-decoration: none;
 }
 
 .social-links li {
     display: inline;
+    text-decoration: none;
 }
 
 .social-links i {
-        font-size: 160%;
-        margin: 1%;
-        color: #ccc;
+    font-size: 160%;
+    margin: 1%;
+    color: #ccc;
 }
