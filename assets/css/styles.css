@@ -136,9 +136,12 @@ header {
     line-height: 1.5em;
 }
 
-#about h2 {
-    padding-bottom: 1em;
+#about h1 {
+    margin-bottom: 30px;
     text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
 /* News Section and Flex Conatiner*/
@@ -146,10 +149,13 @@ header {
 #news {
     text-align: center;
     margin-top: 30px;
+    padding: 30px;
 }
 
 #news h1 {
-    padding: 20px 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
 .flex-container-news {
@@ -199,9 +205,10 @@ hr {
     clear: both;
 }
 
-#fixtures h2 {
-    text-align: center;
-    margin-top: 5%;
+#fixtures h1 {
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
 #fixtures div {
