@@ -31,6 +31,15 @@ body {
     height: 100vh;
 }
 
+h1:not(#header-center h1) {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
 /* #background-image {
     background-size: cover;
     opacity: 0.5;
@@ -158,13 +167,13 @@ header {
     line-height: 1.5em;
 }
 
-#about h1 {
+/* #about h1 {
     margin-bottom: 30px;
     text-align: center;
     padding: 20px;
     background-color: black;
     color: white;
-}
+} */
 
 /* News Section and Flex Conatiner*/
 
@@ -173,11 +182,11 @@ header {
     margin-top: 30px;
 }
 
-#news h1 {
-    padding: 20px;
+/* #news h1 {
+    padding: 20px 0;
     background-color: black;
     color: white;
-}
+} */
 
 .flex-container-news {
     display: flex;
@@ -229,39 +238,44 @@ hr {
 
 #flex-container-fixtures {
     display: flex;
-    width: 90%;
-    flex-direction: column;
-    padding-top: 30px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    border: 5px double #111111;
+    justify-content: space-around;
     
-    align-items: flex-start;
-    margin: 0 5%;
-    padding: 30px 30px 0 0;
-    border: 2px double #111111;
-
 }
 
-#fixtures-flex-image {
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+#fixtures-text-items {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fixtures-flex {
     padding: 30px;
-    text-align: left;
+    text-align: center;
     color: #111111;
     font-size: 120%;
-    /* border: 5px double #111111; */
     margin: 10px;
 }
 
-#fixtures h1 {
-    padding: 20px;
+#flex-container-fixtures img {
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 70%;
+    overflow: hidden;
+}
+
+/* #fixtures h1 {
+    padding: 20px 0;
     background-color: black;
     color: white;
     text-align: center;
-}
+} */
 
 /* #fixtures img {
     display: flex;
