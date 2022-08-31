@@ -40,7 +40,7 @@
 
     <section id="form">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-            <h2>Get In Touch! <i class="fas fa-futbol"></i></h2>
+            <h2>Get In Touch! <i class="fas fa-trophy"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" name="first_name" type="text" required>
     
@@ -50,12 +50,6 @@
             <label for="email">Email Address</label>
             <input type="email" class="text-input" id="email" name="email_address" required>
     
-            <!-- <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required> -->
     
             <label for="reasons">Reason for Message:</label>
             <select id="reasons" name="reasons">
@@ -65,9 +59,9 @@
                 <option value="fiat">Other</option>
             </select>
     
-            <textarea name="message" rows="10" cols="30">Please tell us a little more about why you're contacting us.</textarea>
+            <textarea id="message" name="message" rows="10" cols="50"  placeholder="Please tell us a little more about why you're contacting us."></textarea>
     
-            <input class="join-button" type="submit" value="Let's Run!">
+            <input class="submit-button" type="submit" value="Submit">
         </form>
     
     </section>

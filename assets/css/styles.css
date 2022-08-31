@@ -6,12 +6,6 @@
     border: none;
 }
 
-/* #wrapper {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 #wrapper {
         display: flex;
         flex-direction: column;
@@ -180,19 +174,19 @@ header {
 .flex-container-news {
     display: flex;
     width: 100%;
-    padding-top: 30px;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
-    justify-content: space-evenly;
     border: 5px double #111111;
     margin-top: 30px;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .flex-container-news div {
-    width: 45%;
+    width: 35%;
     display: flex;
     padding: 30px;
+    margin: 0 30px;
     flex-direction: column;
     align-items: stretch;
 }
@@ -202,9 +196,7 @@ header {
 }
 
 #awards-image {
-    margin: 0 auto;
-    max-width: 375px;
-    
+    max-width: 350px;
 } 
 
 .flex-container-news p {
@@ -337,6 +329,48 @@ footer p {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+
+#reasons {
+    font-size: 1em;
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#reasons option {
+    background-color: #111111;
+}
+
+#message {
+    background: white;
+    margin: 5px 0 20px 0;
+}
+
+textarea::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.submit-button {
+    margin: auto;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e52323;
+    color: #fff;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #fff;
+    color: #e52323;
 }
 
 #myBtn {
