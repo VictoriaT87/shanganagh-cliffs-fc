@@ -147,11 +147,14 @@ header {
     width: 100%;
     flex-direction: row;
     align-items: center;
+    border: 5px double #111111;
+    box-sizing: border-box;
 }
 
 #about-image {
     width: 45%;
     display: flex;
+    padding: 30px;
 }
 
 #about-image img {
@@ -167,26 +170,12 @@ header {
     line-height: 1.5em;
 }
 
-/* #about h1 {
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 20px;
-    background-color: black;
-    color: white;
-} */
-
 /* News Section and Flex Conatiner*/
 
 #news {
     text-align: center;
     margin-top: 30px;
 }
-
-/* #news h1 {
-    padding: 20px 0;
-    background-color: black;
-    color: white;
-} */
 
 .flex-container-news {
     display: flex;
@@ -197,6 +186,7 @@ header {
     justify-content: space-evenly;
     border: 5px double #111111;
     margin-top: 30px;
+    box-sizing: border-box;
 }
 
 .flex-container-news div {
@@ -243,7 +233,8 @@ hr {
     align-items: center;
     border: 5px double #111111;
     justify-content: space-around;
-    
+    box-sizing: border-box;
+    background: repeating-linear-gradient( to right, #e5232340 0px, #e5232340 20px, #eee 20px, #eee 40px );
 }
 
 #fixtures-text-items {
@@ -270,20 +261,6 @@ hr {
     overflow: hidden;
 }
 
-/* #fixtures h1 {
-    padding: 20px 0;
-    background-color: black;
-    color: white;
-    text-align: center;
-} */
-
-/* #fixtures img {
-    display: flex;
-    margin: 0 auto;
-    width: 30%;
-    padding: 20px;
-} */
-
 /* Footer */
 
 footer {
@@ -305,7 +282,10 @@ footer p {
 /* Footer social links */
 
 .social-links {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .social-links a {
@@ -322,6 +302,7 @@ footer p {
     margin: 1%;
     color: #ccc;
 }
+
 
 #myBtn {
     display: none;
