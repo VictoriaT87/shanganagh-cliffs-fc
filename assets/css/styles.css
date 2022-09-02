@@ -107,6 +107,18 @@ header {
     border-bottom: 1px solid #fff;
 }
 
+/* Responsive Navigation */
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    color: white;
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
 /* Hero Image */
 
 #hero-image {
@@ -415,6 +427,10 @@ textarea::placeholder {
 
 @media screen and (max-width: 1200px) {
 
+    #header-center {
+        width: 45%;
+    }
+
     #hero-image {
         height: 435px;
         padding-top: 0;
@@ -436,12 +452,20 @@ textarea::placeholder {
     }
 }
 
-/* For medium screen sizes from 950px wide and down*/
+/* For medium screen sizes from 992px wide and down*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 992px) {
 
     #wrapper>* {
         padding: 0;
+    }
+
+    .menu {
+        letter-spacing: 0;
+    }
+
+    #header-center {
+        width: 55%;
     }
 
     #hero-image {
@@ -469,9 +493,9 @@ textarea::placeholder {
         padding-top: 0;
     }
 
-    #awards-image {
+    /* #awards-image {
         height: 50vh;
-    }
+    } */
 
     .flex-container-news div {
         width: 40%;
@@ -499,21 +523,7 @@ textarea::placeholder {
     }
 }
 
-/*RESPONSIVE NAVBAR MENU STARTS*/
-/* CHECKBOX HACK */
-input[type=checkbox] {
-    display: none;
-}
-
-/*HAMBURGER MENU*/
-.hamburger {
-    color: white;
-    display: none;
-    font-size: 24px;
-    user-select: none;
-}
-
-/* APPLYING MEDIA QUERIES */
+/* For medium screen sizes from 768px wide and down */
 @media (max-width: 768px) {
 
     #header-center {
@@ -542,11 +552,35 @@ input[type=checkbox] {
 
     input[type=checkbox]:checked~.menu {
         display: inline-grid;
-    justify-content: start;
+        justify-content: start;
     }
 
     .hamburger {
         display: block;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
+    #about {
+        margin-top: 30px;
+    }
+
+    #cabin-image, #awards-image {
+        display: none;
+    }
+
+    .flex-container-news div {
+        width: 100%;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    footer p {
+        display: none;
     }
 
 }
