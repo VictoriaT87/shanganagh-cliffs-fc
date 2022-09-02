@@ -62,19 +62,31 @@ header {
 
 /* Navigation Links */
 
-#menu {
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.nav-links {
+    width: 80%;
+}
+
+.menu {
+    display: flex;
     width: 100%;
     font-size: 1.5em;
     letter-spacing: 2px;
     background-color: #111111;
 }
 
-#menu ul {
+.menu ul {
     text-align: center;
     padding: 20px;
 }
 
-#menu li {
+.menu li {
     width: 15%;
     display: inline-block;
     list-style-type: none;
@@ -82,12 +94,12 @@ header {
     margin: 0 auto;
 }
 
-#menu a {
+.menu a {
     color: #fff;
     text-decoration: none;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -485,4 +497,56 @@ textarea::placeholder {
         font-size: 120%;
         margin: 10px;
     }
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox] {
+    display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    color: white;
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    #header-center {
+        width: 70%;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #e52323;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #e52323;
+        transition: 0.3s ease;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: inline-grid;
+    justify-content: start;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
 }

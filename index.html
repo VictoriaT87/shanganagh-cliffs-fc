@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,14 +20,18 @@
 
     <header>
 
-        <nav id="menu">
-            <ul>
-                
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#fixtures">Fixtures</a></li>
-                <li><a href="contact-form.html">Contact</a></li>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+                <div class="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#fixtures">Fixtures</a></li>
+                    <li><a href="contact-form.html">Contact</a></li>
+                </div>
             </ul>
         </nav>
 
@@ -68,12 +73,14 @@
                 <div id="about-text">
 
                     <h2>Who We Are</h2>
-                    <p>Shanganagh Cliffs FC was founded by Shanganagh Community Project in 2009, as a chance for the local males aged 18-30 to get together once a week to play football with friends.</p>
+                    <p>Shanganagh Cliffs FC was founded by Shanganagh Community Project in 2009, as a chance for the
+                        local males aged 18-30 to get together once a week to play football with friends.</p>
 
                     <hr>
 
                     <p>Since then, SCFC has grown in numbers to a team of 25 and have entered into an official league,
-                        the Athletic Union League, Division 3A Saturday and have had strong seasons within the top 5 places since.
+                        the Athletic Union League, Division 3A Saturday and have had strong seasons within the top 5
+                        places since.
                     </p>
 
                     <hr>
@@ -96,7 +103,8 @@
                         <p>After a long wait, we've finally got our changing room cabin fitted and ready for use!</p>
                         <hr>
                         <p>A huge thank you to Anne Traynor, Community Development Officer for Shankill, for organising
-                            our new home and thank you to all members of the Shankill Community for donating to our fundraising
+                            our new home and thank you to all members of the Shankill Community for donating to our
+                            fundraising
                             efforts.
                         </p>
                     </article>
@@ -126,7 +134,8 @@
                         <hr>
 
                         <p>A huge congratulations go out to our winners Pat Wall (Player of the Year), Eric Roache
-                            (Highest Scorer of the Year) and Johno Corcoran (Club Man of the Year). Great work last season boys!
+                            (Highest Scorer of the Year) and Johno Corcoran (Club Man of the Year). Great work last
+                            season boys!
                         </p>
 
                         <hr>
@@ -153,35 +162,35 @@
 
                 <div id="fixtures-text-items">
 
-                <div class="fixtures-flex">
-                    <h3>Raheny United Vs SCFC</h3>
-                    <h4>St. Anne's Park</h4>
-                    <h4>Saturday 27th August</h4>
-                    <h4>3PM</h4>
-                </div>
+                    <div class="fixtures-flex">
+                        <h3>Raheny United Vs SCFC</h3>
+                        <h4>St. Anne's Park</h4>
+                        <h4>Saturday 27th August</h4>
+                        <h4>3PM</h4>
+                    </div>
 
-                <div class="fixtures-flex">
-                    <h3>SCFC Vs Howth Celtic</h3>
-                    <h4>Shanganagh Cliffs</h4>
-                    <h4>Saturday 3rd September</h4>
-                    <h4>12PM</h4>
-                </div>
+                    <div class="fixtures-flex">
+                        <h3>SCFC Vs Howth Celtic</h3>
+                        <h4>Shanganagh Cliffs</h4>
+                        <h4>Saturday 3rd September</h4>
+                        <h4>12PM</h4>
+                    </div>
 
-                <div class="fixtures-flex">
-                    <h3>Valley Park United Vs SCFC</h3>
-                    <h4>Plunket Ave, Finglas</h4>
-                    <h4>Saturday 10th September</h4>
-                    <h4>3PM</h4>
-                </div>
+                    <div class="fixtures-flex">
+                        <h3>Valley Park United Vs SCFC</h3>
+                        <h4>Plunket Ave, Finglas</h4>
+                        <h4>Saturday 10th September</h4>
+                        <h4>3PM</h4>
+                    </div>
 
-                <div class="fixtures-flex">
-                    <h3>SCFC Vs St Itas AFC</h3>
-                    <h4>Ballamastone, Donabate </h4>
-                    <h4>Saturday 17th September</h4>
-                    <h4>12PM</h4>
-                </div>
+                    <div class="fixtures-flex">
+                        <h3>SCFC Vs St Itas AFC</h3>
+                        <h4>Ballamastone, Donabate </h4>
+                        <h4>Saturday 17th September</h4>
+                        <h4>12PM</h4>
+                    </div>
 
-            </div>
+                </div>
 
                 <div id="fixtures-image">
                     <img src="/assets/images/logo.png" alt="Shanganagh Cliffs Football Club Logo">
@@ -189,7 +198,7 @@
 
             </div>
 
-            
+
         </section>
 
     </div>
@@ -232,7 +241,8 @@
 
     <script src="https://kit.fontawesome.com/52324bbdec.js" crossorigin="anonymous"></script>
 
-    <script> /* Back to Top button */
+    <script>
+        /* Back to Top button */
         mybutton = document.getElementById("top-button");
 
         window.onscroll = function () {
