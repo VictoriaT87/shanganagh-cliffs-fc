@@ -15,9 +15,7 @@
 
 <body>
 
-    <!-- <a name="top"></a> -->
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
 
     <header>
 
@@ -67,6 +65,8 @@
                 </div>
 
                 <div id="about-text">
+
+                    <h2>Who We Are</h2>
                     <p>Shanganagh Cliffs FC was founded by Shanganagh Community Project in 2009, as a chance for the local males aged 18-30 to get together once a week to play football with friends.</p>
 
                     <hr>
@@ -102,7 +102,7 @@
                 </div>
 
                 <div id="cabin-image">
-                    <img src="assets/images/cabin.jpg" alt="Shanganagh Cliffs wooden crest hung on the wall of a cabin">
+                    <!-- <img src="assets/images/cabin.jpg" alt="Shanganagh Cliffs wooden crest hung on the wall of a cabin"> -->
                 </div>
 
             </div>
@@ -182,7 +182,7 @@
 
             </div>
 
-                <div>
+                <div id="fixtures-image">
                     <img src="/assets/images/logo.png" alt="Shanganagh Cliffs Football Club Logo">
                 </div>
 
@@ -231,11 +231,9 @@
 
     <script src="https://kit.fontawesome.com/52324bbdec.js" crossorigin="anonymous"></script>
 
-    <script>
-        //Get the button:
-        mybutton = document.getElementById("myBtn");
+    <script> /* Back to Top button */
+        mybutton = document.getElementById("top-button");
 
-        // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             scrollFunction()
         };
@@ -248,10 +246,9 @@
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 
