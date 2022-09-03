@@ -121,15 +121,25 @@ input[type=checkbox] {
 
 /* Hero Image */
 
+#hero-container {
+    position: relative;
+    width: 97%;
+    max-height: 39em;
+    overflow: hidden;
+}
+
 #hero-image {
-    height: 500px;
+    height: 40em;
     width: 100%;
     background: url(../images/squad-main.jpg) no-repeat center center;
     background-size: 100%;
-    padding-top: 12%;
 }
 
 #cover-text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
     font-size: 130%;
@@ -139,9 +149,9 @@ input[type=checkbox] {
     height: 90px;
     padding: 30px 20px;
     background-color: rgba(15, 14, 14, 0.7);
-    bottom: -90px;
+    /* bottom: -90px;
     left: 265px;
-    position: absolute
+    position: absolute */
 }
 
 #cover-text h2 {
@@ -436,11 +446,12 @@ textarea::placeholder {
         padding-top: 0;
     }
 
+    /* 
     #cover-text {
         bottom: 110px;
         left: 160px;
         position: absolute;
-    }
+    } */
 
     #flex-container-about,
     .flex-container-news {
@@ -567,7 +578,8 @@ textarea::placeholder {
         margin-top: 30px;
     }
 
-    #cabin-image, #awards-image {
+    #cabin-image,
+    #awards-image {
         display: none;
     }
 
