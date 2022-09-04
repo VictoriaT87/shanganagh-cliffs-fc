@@ -4,18 +4,29 @@ Welcome to the Shanganagh Cliffs Football Club website! This site has been creat
 
 The website also has a contact form which will allow local businesses to get in touch with a chance to sponsor the club - a very important feature for local clubs which still rely on money paid in by the players for travel and kit expenses.
 
-## Features 
+![Website responsiveness on multiple screen sizes](assets/documentation/responsive-screenshots.png)
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+[Live link to The Shanganagh Cliffs Football Club Website](https://victoriat87.github.io/shanganagh-cliffs-fc/)
+
+## Features 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on both the main index page and the contact form page, the full responsive navigation bar includes links to each section of the Home page -  the Logo, About, News, Fixtures - as well as to the separate Contact Form page. This allows for easy navigation.
+  - Connected to the Navigation bar is a "Return to Top" button. This will show when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
+  - These 2 items together will the user to easily navigate from each section of the Index page back to the top Navigation, as well as easy access to the Contact Form page without needed to scroll back up to the top or pressing the refresh or back buttons. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/documentation/navigation-bar.png)
+![Back to Top Button](assets/documentation/back-to-top-button.png)
+
+- __The Header__
+
+  - The header consists of the navigation bar, as well as the club's logo and text of the club's name.
+  - The header is fully responsive, with the image scaling down for each screen size.
+  - The Logo, when clicked, will also bring the user back to the home page from the Contact page.
+  - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamgburger menu will open from the side and includes a hover attribute for better UX for the user.
 
 - __The landing page image__
 
