@@ -21,26 +21,26 @@ The website also has a contact form which will allow local businesses to get in 
 ![Nav Bar](assets/documentation/navigation-bar.png)
 ![Back to Top Button](assets/documentation/back-to-top-button.png)
 
-- __The Header__
+- __Header__
 
   - The header consists of the navigation bar, as well as the club's logo and text of the club's name.
   - The header is fully responsive, with the image scaling down for each screen size.
   - The Logo, when clicked, will also bring the user back to the home page from the Contact page.
   - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamgburger menu will open from the side and includes a hover attribute for better UX for the user.
 
-- __The landing page image__
+- __Hero Image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph of the full team with a text overlay announcing that submissions are open to join the team for the next year. 
+  - This section introduces the user to the Shanganagh Cliffs Football team. It also let's the user know that they can join the team and shows off their full kit and prominent sponsorship, to entice local businesses to sponsor the team. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](assets/documentation/landing-page.png)
 
-- __Club Ethos Section__
+- __About Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About section informs the user of how the club began, how long it's been running, the League and Division the football team is in and how to apply to join the team.
+  - This user will see that the club is a successful local team, who has won a Division Championship, and that the team consists of local men from the community. This will hopefully encourage new people to join. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About Section](assets/documentation/about-section.png)
 
 - __Meetup Times section__
 

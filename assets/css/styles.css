@@ -40,7 +40,7 @@ h2:not(.contact-form h2) {
     margin-bottom: 30px;
 }
 
-h3:not(#cover-text h3) {
+h3:not(#cover-text h3, #about-text h3) {
     font-size: 1.2em;
     padding: 20px;
 }
@@ -169,9 +169,10 @@ input[type=checkbox] {
     display: flex;
     width: 100%;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     border: 5px double #111111;
     box-sizing: border-box;
+    justify-content: space-evenly;
 }
 
 #about-image {
@@ -184,8 +185,8 @@ input[type=checkbox] {
     min-width: 0;
 }
 
-#about-text h2 {
-    padding: 20px 0;
+#about-text h3 {
+    padding: 0 20px 20px 20px;
 }
 
 #about-text {
