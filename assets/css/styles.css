@@ -278,6 +278,10 @@ hr {
     justify-content: space-around;
 }
 
+.fixtures-teams {
+    padding: 0;
+}
+
 .fixtures-flex-left {
     display: flex;
     width: 15%;
