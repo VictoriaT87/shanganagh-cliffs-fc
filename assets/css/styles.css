@@ -481,13 +481,6 @@ textarea::placeholder {
         padding-top: 0;
     }
 
-    /* 
-    #cover-text {
-        bottom: 110px;
-        left: 160px;
-        position: absolute;
-    } */
-
     #flex-container-about,
     .flex-container-news {
         align-items: center;
@@ -519,9 +512,6 @@ textarea::placeholder {
     }
 
     #cover-text {
-        /* bottom: 200px;
-        left: 130px;
-        padding: 10px; */
         display: none;
     }
 
@@ -536,10 +526,6 @@ textarea::placeholder {
     #about-text h2 {
         padding-top: 0;
     }
-
-    /* #awards-image {
-        height: 50vh;
-    } */
 
     .flex-container-news div {
         width: 40%;
@@ -556,6 +542,11 @@ textarea::placeholder {
 
     #fixtures-text-items {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: small;
     }
 
     .fixtures-flex {
@@ -565,6 +556,18 @@ textarea::placeholder {
         font-size: 120%;
         margin: 10px;
     }
+
+    .fixtures-flex-left,
+    .fixtures-flex-right {
+        display: contents;
+    }
+
+    .fixtures-flex-left h3,
+    .fixtures-flex-right h3 {
+        padding: 5px;
+        margin: 1px;
+    }
+
 }
 
 /* For medium screen sizes from 768px wide and down */
@@ -620,6 +623,12 @@ textarea::placeholder {
         width: 100%;
     }
 
+    .fixtures-flex-left h3,
+    .fixtures-flex-right h3 {
+        padding: 5px !important;
+        margin: 1px;
+    }
+
     footer {
         height: 60px;
     }
@@ -628,4 +637,10 @@ textarea::placeholder {
         display: none;
     }
 
+}
+
+/* For medium screen sizes from 576px wide and down */
+
+@media (max-width: 576px) {
+    
 }
