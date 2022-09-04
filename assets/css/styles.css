@@ -25,12 +25,24 @@ body {
     height: 100vh;
 }
 
-h1:not(#header-center h1) {
+h1 {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+h2 {
     text-align: center;
     padding: 20px;
     background-color: black;
     color: white;
     margin-bottom: 30px;
+}
+
+h3:not(#cover-text h3) {
+    font-size: 1.2em;
+    padding: 20px;
 }
 
 /* Header Section*/
@@ -42,13 +54,6 @@ header {
 #header-center {
     width: 33%;
     margin: 0 auto;
-}
-
-#header-center h1 {
-    padding: 20px 0;
-    color: #fff;
-    text-align: center;
-
 }
 
 /* Logo styling */
@@ -130,9 +135,8 @@ input[type=checkbox] {
 
 #hero-image {
     height: 48em;
-    width: 100%;
     background: url(../images/squad-main.jpg) no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #cover-text {
@@ -151,7 +155,7 @@ input[type=checkbox] {
     background-color: rgba(15, 14, 14, 0.7);
 }
 
-#cover-text h2 {
+#cover-text h3 {
     padding-bottom: 20px;
 }
 
@@ -481,9 +485,7 @@ textarea::placeholder {
     }
 
     #hero-image {
-        height: 335px;
-        padding: 0;
-        margin: 30px 0;
+        margin-bottom: 30px;
     }
 
     #cover-text {
