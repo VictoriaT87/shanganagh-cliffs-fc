@@ -42,33 +42,30 @@ The website also has a contact form which will allow local businesses to get in 
 
 ![About Section](assets/documentation/about-section.png)
 
-- __Meetup Times section__
+- __Latest News section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see all the latest news from the football club, including images from events, meetups and matches.
+  - This section will be updated with the latest news from the club. The amount of subsections within the Latest News section can be updated to allow as much information as possible to be shown to the user. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Latest News](assets/documentation/news-section.png)
 
-- __The Footer__ 
+- __Fixtures__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The Fixtures section will show the user the latest upcoming match fixtures for the team, including the location, time and date of the next 4 matches. As each match is played on a Saturday, this should cover each month.
+  - The Fixtures section is extremely valuable to fans of the club, who will know when a local match is being played, as well as matches that some users may want to travel to to show their support.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Fixtures Section](assets/documentation/fixtures-section.png)
 
-- __Gallery__
+-__The Footer__ 
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Footer section includes social media links and contact links in the form of a phone number and email address.
+  - The links within the footer will allow the user direct buttons to follow the team on their social platforms and to easily get in touch with the management team for any other questions or queries.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Footer](assets/documentation/footer.png)
 
-- __The Sign Up Page__
+- __The Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to contact the team in regards to signing up, to apply for Sporship of the kit or for general queries. 
+  - Featuring a large background image of an overhead drone shot of the pitch that the club plays on with the contact form overlaying it, the page is striking for the user to look at.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact Page](assets/documentation/contact-page.png)
