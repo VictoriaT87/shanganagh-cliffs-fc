@@ -18,8 +18,14 @@ The website also has a contact form which will allow local businesses to get in 
   - Connected to the Navigation bar is a "Return to Top" button. This will show when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
   - These 2 items together will the user to easily navigate from each section of the Index page back to the top Navigation, as well as easy access to the Contact Form page without needed to scroll back up to the top or pressing the refresh or back buttons. 
 
+#### Navigation on Desktop
 ![Nav Bar](assets/documentation/navigation-bar.png)
+#### Hamburger Navigation on Mobile
+![Hamburger Menu](assets/documentation/hamburger-menu.png)
+#### Back to The Top Button
 ![Back to Top Button](assets/documentation/back-to-top-button.png)
+
+<br>
 
 - __Header__
 
@@ -35,12 +41,16 @@ The website also has a contact form which will allow local businesses to get in 
 
 ![Landing Page](assets/documentation/landing-page.png)
 
+<br>
+
 - __About Section__
 
   - The About section informs the user of how the club began, how long it's been running, the League and Division the football team is in and how to apply to join the team.
   - This user will see that the club is a successful local team, who has won a Division Championship, and that the team consists of local men from the community. This will hopefully encourage new people to join. 
 
 ![About Section](assets/documentation/about-section.png)
+
+<br>
 
 - __Latest News section__
 
@@ -49,19 +59,25 @@ The website also has a contact form which will allow local businesses to get in 
 
 ![Latest News](assets/documentation/news-section.png)
 
-- __Fixtures__ 
+<br>
+
+- __Fixtures Section__ 
 
   - The Fixtures section will show the user the latest upcoming match fixtures for the team, including the location, time and date of the next 4 matches. As each match is played on a Saturday, this should cover each month.
   - The Fixtures section is extremely valuable to fans of the club, who will know when a local match is being played, as well as matches that some users may want to travel to to show their support.
 
 ![Fixtures Section](assets/documentation/fixtures-section.png)
 
--__The Footer__ 
+<br>
+
+- __The Footer__ 
 
   - The Footer section includes social media links and contact links in the form of a phone number and email address.
   - The links within the footer will allow the user direct buttons to follow the team on their social platforms and to easily get in touch with the management team for any other questions or queries.
 
 ![Footer](assets/documentation/footer.png)
+
+<br>
 
 - __The Contact Page__
 
