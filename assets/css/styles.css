@@ -32,7 +32,7 @@ h1 {
 }
 
 
-h2 {
+h2:not(.contact-form h2) {
     text-align: center;
     padding: 20px;
     background-color: black;
@@ -260,24 +260,40 @@ hr {
 
 #flex-container-fixtures {
     display: flex;
-    width: 100%;
+    max-width: 100%;
+    height: 55vh;
     flex-direction: row;
-    align-items: center;
     border: 5px double #111111;
-    justify-content: space-evenly;
     box-sizing: border-box;
     background: repeating-linear-gradient(to right, #e5232340 0px, #e5232340 20px, #eee 20px, #eee 40px);
+    align-items: center;
 }
 
 #fixtures-text-items {
     display: flex;
-    width: 30%;
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
 }
 
-.fixtures-flex {
-    padding: 30px;
+.fixtures-flex-left {
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    color: #111111;
+    font-size: 120%;
+    margin: 10px;
+}
+
+.fixtures-flex-right {
+    display: flex;
+    max-width: 15%;
+    flex-direction: column;
+    padding: 15px;
     text-align: center;
     color: #111111;
     font-size: 120%;
@@ -286,17 +302,18 @@ hr {
 
 #fixtures-image {
     display: flex;
-    max-width: 45%;
+    width: 15%;
 }
 
 #fixtures-image img {
-    max-height: 65vh;
+    max-height: 35vh;
+    min-width: 0;
 }
 
 
 /* Footer */
 
-footer {
+footer:not(#contact-form-footer) {
     background-color: #111111;
     clear: both;
     margin-top: 30px;
@@ -358,8 +375,9 @@ footer p {
 
 .contact-form>h2 {
     text-align: center;
-    color: #fafafa;
-    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 30px;
 }
 
 .text-input {
@@ -412,6 +430,14 @@ textarea::placeholder {
 .submit-button:hover {
     background-color: #fff;
     color: #e52323;
+}
+
+#contact-form-footer {
+    background-color: #111111;
+    clear: both;
+    padding-top: 30px;
+    height: 150px;
+    width: 100%;
 }
 
 /* Back to Top button */

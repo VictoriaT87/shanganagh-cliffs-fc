@@ -18,13 +18,18 @@
 
     <header>
 
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#fixtures">Fixtures</a></li>
-                <li><a href="contact-form.html" class="active">Contact</a></li>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#fixtures">Fixtures</a></li>
+                    <li><a href="contact-form.html" class="active">Contact</a></li>
+                </div>
             </ul>
         </nav>
 
@@ -65,6 +70,42 @@
         </form>
     
     </section>
+
+    <footer id="contact-form-footer">
+        <ul class="social-links">
+            <li>
+                <a href="tel:+353123456789" target="_blank" rel="noopener"
+                    aria-label="Call us on +353 123 456 789 (opens phone app on mobile)">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="mailto:scfc@exampleemail.com" target="_blank" rel="noopener"
+                    aria-label="Email us at scfc@exampleemail.com (opens in a new tab)">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <p>Shanganagh Cliffs Football Club by Victoria Traynor ©2022</p>
+    </footer>
     
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
