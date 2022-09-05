@@ -32,7 +32,9 @@ The website also has a contact form which will allow local businesses to get in 
   - The header consists of the navigation bar, as well as the club's logo and text of the club's name.
   - The header is fully responsive, with the image scaling down for each screen size.
   - The Logo, when clicked, will also bring the user back to the home page from the Contact page.
-  - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamgburger menu will open from the side and includes a hover attribute for better UX for the user.
+  - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamburger menu will open from the side and includes a hover attribute for better UX for the user.
+  
+  <br>
 
 - __Hero Image__
 

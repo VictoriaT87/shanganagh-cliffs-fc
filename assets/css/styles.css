@@ -74,21 +74,13 @@ header {
     padding: 20px;
 }
 
-.nav-links {
-    width: 80%;
-}
-
 .menu {
     display: flex;
-    width: 100%;
+    width: 80%;
     font-size: 1.5em;
     letter-spacing: 2px;
     background-color: #111111;
-}
-
-.menu ul {
     text-align: center;
-    padding: 20px;
 }
 
 .menu li {
@@ -118,10 +110,15 @@ input[type=checkbox] {
 }
 
 .hamburger {
-    color: white;
     display: none;
-    font-size: 24px;
-    user-select: none;
+    position: absolute;
+    color: #fff;
+    top: 18px;
+    left: 25px;
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+    transition: all 1s cubic-bezier(.19, 1, .22, 1);
 }
 
 /* Hero Image */
@@ -580,7 +577,6 @@ textarea::placeholder {
 
     .menu {
         display: none;
-        position: absolute;
         background-color: #e52323;
         right: 0;
         left: 0;
@@ -605,6 +601,7 @@ textarea::placeholder {
 
     .hamburger {
         display: block;
+        cursor: pointer;
     }
 
     #hero-image {
@@ -642,6 +639,4 @@ textarea::placeholder {
 
 /* For medium screen sizes from 576px wide and down */
 
-@media (max-width: 576px) {
-    
-}
+@media (max-width: 576px) {}
