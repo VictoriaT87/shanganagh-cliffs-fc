@@ -259,7 +259,7 @@ hr {
 #flex-container-fixtures {
     display: flex;
     max-width: 100%;
-    height: 55vh;
+    height: 60vh;
     flex-direction: row;
     border: 5px double #111111;
     box-sizing: border-box;
@@ -329,7 +329,7 @@ hr {
 
 table {
     width: 100%;
-    padding: 20px; 
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -345,6 +345,10 @@ td {
 
 th {
     padding-bottom: 10px;
+}
+
+#mobile-league-table {
+    display: none;
 }
 
 
@@ -579,7 +583,7 @@ textarea::placeholder {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        font-size: small;
+        font-size: 75%;
     }
 
     .fixtures-flex {
@@ -600,6 +604,11 @@ textarea::placeholder {
         padding: 5px;
         margin: 1px;
     }
+
+    #league-table {
+        margin-top: 30px;
+    }
+
 
 }
 
@@ -674,4 +683,32 @@ textarea::placeholder {
 
 /* For medium screen sizes from 576px wide and down */
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+
+    #table-flex-container {
+        display: none;
+    }
+
+    #mobile-league-table {
+        display: flex;
+        max-width: 100%;
+        max-height: 50vh;
+        border: 5px double #111111;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #mobile-league-table ol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        margin-left: 20px;
+    }
+
+    #mobile-league-table li {
+        padding: 10px;
+        font-size: large;
+    }
+}
