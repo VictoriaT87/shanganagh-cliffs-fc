@@ -710,5 +710,7 @@ textarea::placeholder {
     #mobile-league-table li {
         padding: 10px;
         font-size: large;
+        text-transform: uppercase;
+        font-weight: 500;
     }
 }
