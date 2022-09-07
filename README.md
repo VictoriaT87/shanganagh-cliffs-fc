@@ -34,7 +34,6 @@ The website also has a contact form which will allow local businesses to get in 
   - The image and text will scale down for each screen size, making sure the header never takes up too much space on mobile.
   - The Logo, when clicked, will also bring the user back to the home page from the Contact page.
  
- #### Header
 ![Header](assets/documentation/header.png)
   
   <br>
@@ -93,7 +92,17 @@ The website also has a contact form which will allow local businesses to get in 
 
 - __The Contact Page__
 
-  - This page allows the user to contact the team in regards to signing up, to apply for Sporship of the kit or for general queries. 
+  - This page allows the user to contact the team in regards to signing up, to apply for Sponsorship of the kit or for general queries. 
   - Featuring a large background image of an overhead drone shot of the pitch that the club plays on with the contact form overlaying it, the page is striking for the user to look at.
 
 ![Contact Page](assets/documentation/contact-page.png)
+
+<br>
+
+### Features Left to Implement
+
+- 
+
+<br>
+
+## Testing 
