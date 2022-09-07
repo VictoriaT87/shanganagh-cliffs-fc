@@ -17,6 +17,7 @@ The website also has a contact form which will allow local businesses to get in 
   - Featured on both the main index page and the contact form page, the full responsive navigation bar includes links to each section of the Home page -  the Logo, About, News, Fixtures and the current League Table - as well as to the separate Contact Form page. This allows for easy navigation across the site.
   - Connected to the Navigation bar is a "Return to Top" button. This will show to the bottom right of the screen when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
   - These 2 items together allows the user to easily navigate from each section of the Index page back to the top Navigation, as well as easy access to the Contact Form page without needed to scroll back up to the top or pressing the refresh or back buttons. 
+  - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamburger menu will open from the side with a bold red background to continue the website's color scheme.
 
 #### Navigation on Desktop
 ![Nav Bar](assets/documentation/navigation-bar.png)
@@ -29,17 +30,19 @@ The website also has a contact form which will allow local businesses to get in 
 
 - __Header__
 
-  - The header consists of the navigation bar, as well as the club's logo and text of the club's name.
-  - The header is fully responsive, with the image scaling down for each screen size.
+  - The fully responsive header consists of the navigation bar, as well as the club's logo and text of the club's name.
+  - The image and text will scale down for each screen size, making sure the header never takes up too much space on mobile.
   - The Logo, when clicked, will also bring the user back to the home page from the Contact page.
-  - A hamburger menu will appear when the screen is scaled down to smaller screen sizes. This hamburger menu will open from the side and includes a hover attribute for better UX for the user.
+ 
+ #### Header
+![Header](assets/documentation/header.png)
   
   <br>
 
 - __Hero Image__
 
   - The landing includes a photograph of the full team with a text overlay announcing that submissions are open to join the team for the next year. 
-  - This section introduces the user to the Shanganagh Cliffs Football team. It also let's the user know that they can join the team and shows off their full kit and prominent sponsorship, to entice local businesses to sponsor the team. 
+  - This section introduces the user to the Shanganagh Cliffs Football team. It also lets the user know that they can join the team and shows off their full kit and prominent sponsorship, to entice local businesses to sponsor the team. 
 
 ![Landing Page](assets/documentation/landing-page.png)
 
@@ -71,6 +74,13 @@ The website also has a contact form which will allow local businesses to get in 
 ![Fixtures Section](assets/documentation/fixtures-section.png)
 
 <br>
+
+- __League Table__ 
+
+  - The League Table section consists of a HTML table with columns and rows outlining the current standings, games played, goals for/against and the goal difference, as well as the points each team has.
+  - Having the current table is very important for a user who is a fan of the team. Knowing the team's current position, along with the upcoming fixtures, can help a user understand better how well the team is playing and will encourage support.
+
+![League Table](assets/documentation/league-table.png)
 
 - __The Footer__ 
 
