@@ -14,9 +14,9 @@ The website also has a contact form which will allow local businesses to get in 
 
 - __Navigation Bar__
 
-  - Featured on both the main index page and the contact form page, the full responsive navigation bar includes links to each section of the Home page -  the Logo, About, News, Fixtures - as well as to the separate Contact Form page. This allows for easy navigation.
-  - Connected to the Navigation bar is a "Return to Top" button. This will show when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
-  - These 2 items together will the user to easily navigate from each section of the Index page back to the top Navigation, as well as easy access to the Contact Form page without needed to scroll back up to the top or pressing the refresh or back buttons. 
+  - Featured on both the main index page and the contact form page, the full responsive navigation bar includes links to each section of the Home page -  the Logo, About, News, Fixtures and the current League Table - as well as to the separate Contact Form page. This allows for easy navigation across the site.
+  - Connected to the Navigation bar is a "Return to Top" button. This will show to the bottom right of the screen when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
+  - These 2 items together allows the user to easily navigate from each section of the Index page back to the top Navigation, as well as easy access to the Contact Form page without needed to scroll back up to the top or pressing the refresh or back buttons. 
 
 #### Navigation on Desktop
 ![Nav Bar](assets/documentation/navigation-bar.png)

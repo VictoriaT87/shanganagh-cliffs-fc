@@ -448,6 +448,7 @@ footer p {
 }
 
 #message {
+    width: 100%;
     background: white;
     margin: 5px 0 20px 0;
 }
@@ -616,6 +617,10 @@ textarea::placeholder {
 
 /* For medium screen sizes from 768px wide and down */
 @media (max-width: 768px) {
+
+    .menu li:hover {
+        color: #fff;
+    }
 
     #header-center {
         width: 70%;
