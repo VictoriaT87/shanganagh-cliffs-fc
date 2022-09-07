@@ -157,3 +157,36 @@ The main goal of the website is to encourage more fans/members of the local comm
 <br>
 
 # Testing 
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Lighthouse Testing
+ - When first tested, performance for the website was at 88. The recommendations from Lighthouse for this issue was to change certain images from .jpg to .webp. To do this, I used the website [WEBP Converter](https://cloudconvert.com/webp-converter). After running Lighthouse again, this changed to a 91.
+ - The other recommendations Lighthouse gave me to speed up performance, was to do with the caching of images. I tried to research this issue but it was to do with the configuration of the server, and adding "Cache-Control" to the server header. As I don't have access to this, I could not change it.
+
+ ![Lighthouse Report](assets/documentation/lighthouse.png)
+
+### Other Testing
+ -
+
+
+<br>
+
+## Bugs Found and Fixed
+
+  ## Deployment
+
+The following are the steps I went through to deploy my live site:
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab on the top menu.
+  - From the settings page, navigate to the Pages section from the left hand side menu.
+  - From the source section drop-down menu, select "Deploy From a Branch"
+  - Press the save button.
+  - After a few minutes, you can refresh the page to see your Live Site link at the top.
+
+The live link can be found here - https://victoriat87.github.io/shanganagh-cliffs-fc/
