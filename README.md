@@ -101,8 +101,32 @@ The website also has a contact form which will allow local businesses to get in 
 
 ### Features Left to Implement
 
-- 
+- I would love to add a Gallery to the website, consisting of images of the team playing their matches, as well as fan submitted photos of fans with the jersey and travelling to support the team.
+- As well as photos, having short video clips of goals would encourage more interactivity from users of the website - both taking videos of the teams matches and submitting them for others to enjoy.
 
 <br>
+
+# User Experience (UX)
+
+## Site Goals
+The main goal of the website is to encourage more fans/members of the local community to learn more about how Shanganagh Cliffs was founded (as a community project with friends) and to let users know when and where the next matches will be played, to allow them to come and support the team.
+
+## User Stories
+
+* First Time Visitor Goals
+
+  As a first time visitor: 
+  * I want to understand that the website is for a local football team.
+  * I want to know more about how the club was founded.
+  * I want to know when and where the next match will be.
+  * I want to know how where the home pitch is and how to get there.
+
+<br>
+
+* Returning Visitor Goals
+
+    As a returning visitor:    
+    * I want to know how well the team is doing in the League.
+    * I want to know the latest news about the team.
 
 ## Testing 
