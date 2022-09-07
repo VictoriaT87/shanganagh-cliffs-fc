@@ -335,6 +335,7 @@ table {
 }
 
 .team-names {
+    width: 25%;
     text-transform: uppercase;
     font-weight: 500;
 }

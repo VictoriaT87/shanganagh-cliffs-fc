@@ -8,9 +8,9 @@ The website also has a contact form which will allow local businesses to get in 
 
 [Live link to The Shanganagh Cliffs Football Club Website](https://victoriat87.github.io/shanganagh-cliffs-fc/)
 
-## Features 
+# Features 
 
-### Existing Features
+## Existing Features
 
 - __Navigation Bar__
 
@@ -99,7 +99,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-### Features Left to Implement
+## Features Left to Implement
 
 - I would love to add a Gallery to the website, consisting of images of the team playing their matches, as well as fan submitted photos of fans with the jersey and travelling to support the team.
 - As well as photos, having short video clips of goals would encourage more interactivity from users of the website - both taking videos of the teams matches and submitting them for others to enjoy.
@@ -129,4 +129,25 @@ The main goal of the website is to encourage more fans/members of the local comm
     * I want to know how well the team is doing in the League.
     * I want to know the latest news about the team.
 
-## Testing 
+<br>
+
+# Technologies
+
+## Languages Used
+* [HTML5](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
+* [JavaScript](https://www.w3schools.com/js/)
+
+## Libraries & Frameworks
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+
+## Tools & Resources
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
+* [ReadMe Template](https://github.com/Code-Institute-Solutions/readme-template)
+* [PicResize](https://picresize.com/)
+* [Am I Responsive](https://ui.dev/amiresponsive)
+* [W3C HTML Validation](https://validator.w3.org/)
+* [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
