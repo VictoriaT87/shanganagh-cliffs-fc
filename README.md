@@ -153,3 +153,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 * [Lighthouse](https://web.dev/measure/)
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+<br>
+
+# Testing 
