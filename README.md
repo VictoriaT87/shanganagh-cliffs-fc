@@ -207,7 +207,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 ## Bugs Found and Fixed
 - Originally, I was using divs, positioning and floats to layout all content. However, when resizing, I ran into major issues with how the content positioned iteself. After discussing with my Mentor, he advised me to learn and use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) elements instead.
 
-- 
+- The Cover Text on the Hero image was positioned using floats but when resized, the text would float below the image. This was because I had originally positioned it using pixels. After changing this to % values, the cover text stayed in place when the screen was resized.
 
 <br>
 
