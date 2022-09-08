@@ -155,6 +155,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 * [Lighthouse](https://web.dev/measure/)
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [Stack Overflow](https://stackoverflow.com/)
 
 <br>
 
@@ -179,18 +180,25 @@ The main goal of the website is to encourage more fans/members of the local comm
 
  - Huawei P20 Lite Vertical 
 ![Huawei Vertical](assets/documentation/huawei-vertical.jpg)
+
 - Huawei P20 Lite Horizontal
 ![Huawei Horizontal](assets/documentation/huawei-horizontal.jpg)
+
 - Samsung Tab A8 Vertical
 ![Samsung Tab A8 Vertical](assets/documentation/samsung-tab-vertical.png)
+
 - Samsung Tab A8 Horizontal
 ![Samsung Tab A8 Horizontal](assets/documentation/samsung-tab-horizontal.png)
+
 - One Plus 9 Pro Horizontal
 ![One Plus 9 Pro Vertical](assets/documentation/one-plus-vertical.jpg)
+
 - One Plus 9 Pro Horizontal
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-horizontal.jpg)
+
 - One Plus 9 Pro Vertical Hamburger Menu
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-hamburger.jpg) 
+
 - One Plus 9 Pro Vertical Fixtures Section
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-vertical-fixtures.jpg)
 <br>
