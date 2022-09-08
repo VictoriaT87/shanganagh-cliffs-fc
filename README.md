@@ -103,7 +103,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 ## Features Left to Implement
 
-- I would love to add a Gallery to the website, consisting of images of the team playing their matches, as well as fan submitted photos of fans with the jersey and travelling to support the team.
+- Add a Gallery to the website, consisting of images of the team playing their matches, as well as fan submitted photos of fans with the jersey and travelling to support the team.
 - As well as photos, having short video clips of goals would encourage more interactivity from users of the website - both taking videos of the teams matches and submitting them for others to enjoy.
 
 <br>
@@ -155,6 +155,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 * [Lighthouse](https://web.dev/measure/)
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Stack Overflow](https://stackoverflow.com/)
 
 <br>
@@ -204,6 +205,8 @@ The main goal of the website is to encourage more fans/members of the local comm
 <br>
 
 ## Bugs Found and Fixed
+- Originally, I was using divs, positioning and floats to layout all content. However, when resizing, I ran into major issues with how the content positioned iteself. After discussing with my Mentor, he advised me to learn and use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) elements instead.
+
 - 
 
 <br>
