@@ -226,15 +226,6 @@ input[type=checkbox] {
     align-items: stretch;
 }
 
-#cabin-image {
-    background-image: url('../images/cabin.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 40vh;
-    margin: 20px;
-    display: flex;
-}
-
 #awards-image {
     max-width: 350px;
 }
