@@ -135,6 +135,14 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
+* Frequent Visitor Goals
+
+    As a frequent visitor:    
+    * I want the League to be updated after every match.
+    * I want to know the latest news about the team and see that it us updated regularly.
+
+<br>
+
 ## Design
 
 ### Colour Scheme
@@ -165,6 +173,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [GitHub](https://github.com/)
 * [ReadMe Template](https://github.com/Code-Institute-Solutions/readme-template)
 * [PicResize](https://picresize.com/)
+* [Balsamiq](https://balsamiq.com/)
 * [WEBP Converter](https://cloudconvert.com/webp-converter)
 * [Am I Responsive](https://ui.dev/amiresponsive)
 * [W3C HTML Validation](https://validator.w3.org/)
@@ -237,7 +246,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
-## Deployment
+# Deployment
 
 The following are the steps I went through to deploy my live site:
 
@@ -249,3 +258,14 @@ The following are the steps I went through to deploy my live site:
   - After a few minutes, you can refresh the page to see your Live Site link at the top.
 
 The live link can be found here - https://victoriat87.github.io/shanganagh-cliffs-fc/
+
+<br>
+
+# Credits and Sources
+
+1. Website was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+1. The Football Trophy image in the News Section, is taken from [Unsplash.com](https://unsplash.com/photos/exqr-l9rr94?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) by photographer [Darque Kj](https://unsplash.com/@darquekj).
+2. Hamburger menu code was a written with code from [MakeUseOf.com](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/), [bloom-dan on CodePen.io](https://codepen.io/bloom-dan/pen/vKdoaM) and my fellow student [Sean Johnson](https://code-institute-room.slack.com/U03790U1LAV).
+3. Back to the Top Button from [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+4. Form CSS was adapted from [The Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+5. Answers to most of my questions and issues were solved when I searched on [Stack Overflow](https://stackoverflow.com/).
