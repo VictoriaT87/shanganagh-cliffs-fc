@@ -4,7 +4,7 @@ Welcome to the Shanganagh Cliffs Football Club website! This site has been creat
 
 The website also has a contact form which will allow local businesses to get in touch with a chance to sponsor the club - a very important feature for local clubs which still rely on money paid in by the players for travel and kit expenses.
 
-![Website responsiveness on multiple screen sizes](assets/documentation/responsive-screenshots.png)
+![Website responsiveness on multiple screen sizes](assets/documentation/responsive-screenshot.png)
 
 [Live link to The Shanganagh Cliffs Football Club Website](https://victoriat87.github.io/shanganagh-cliffs-fc/)
 
@@ -96,8 +96,10 @@ The website also has a contact form which will allow local businesses to get in 
 
   - This page allows the user to contact the team in regards to signing up, to apply for Sponsorship of the kit or for general queries. 
   - Featuring a large background image of an overhead drone shot of the pitch that the club plays on with the contact form overlaying it, the page is striking for the user to look at.
+  - The contact page also includes an embedded Google Map to show the pitch where the team plays. This map is fully interactive, with the user able to zoom in and out and drag the map around.
 
 ![Contact Page](assets/documentation/contact-page.png)
+![Contact Page](assets/documentation/contact-page-map.png)
 
 <br>
 
