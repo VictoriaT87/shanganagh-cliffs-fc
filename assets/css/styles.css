@@ -32,7 +32,7 @@ h1 {
 }
 
 
-h2:not(.contact-form h2, #cover-text h2) {
+h2:not(.contact-form h2, #cover-text h2, #thank-you-text h2) {
     text-align: center;
     padding: 20px;
     background-color: black;
@@ -397,9 +397,9 @@ footer p {
     color: #ccc;
 }
 
-/* Contact Form */
+/* Contact Form & Thank You Page */
 
-#form {
+#form, #thank-you {
     clear: left;
     background-image: url('../images/pitch-green.webp');
     background-size: cover;
@@ -407,7 +407,7 @@ footer p {
     height: 900px;
 }
 
-.contact-form {
+.contact-form, #thank-you-text {
     margin: auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -456,7 +456,16 @@ footer p {
 #message {
     width: 100%;
     background: white;
-    margin: 5px 0 20px 0;
+    margin-top: 5px;
+}
+
+#reasons option:hover {
+    color: #e52323;
+}
+
+#required-text {
+    margin: 10px 0;
+    font-size: 0.75em;
 }
 
 textarea::placeholder {
@@ -504,6 +513,23 @@ iframe {
     right: 0;
     width: 100%;
     height: 100%;
+}
+
+#thank-you-text {
+    text-align: center;
+}
+
+#thank-you-text h2 {
+    margin-bottom: 20px;
+}
+
+#thank-you-text a {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#thank-you-text a:hover {
+    color: #e52323;
 }
 
 /* Back to Top button */
