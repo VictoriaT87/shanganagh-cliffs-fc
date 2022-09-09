@@ -362,7 +362,7 @@ footer:not(#contact-form-footer) {
     clear: both;
     margin-top: 30px;
     padding-top: 30px;
-    height: 150px;
+    max-height: 6em;
     width: 100%;
 }
 
@@ -413,20 +413,18 @@ footer p {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: relative;
-    top: 10%;
+    top: 3em;
     padding: 30px;
 }
 
 .contact-form>h2 {
     text-align: center;
-    padding: 20px;
     color: white;
     margin-bottom: 20px;
 }
 
 #contact-info {
     text-align: center;
-    margin-bottom: 20px;
     line-height: 1.2em;
 }
 
@@ -487,7 +485,7 @@ textarea::placeholder {
     background-color: #111111;
     clear: both;
     padding-top: 30px;
-    height: 150px;
+    max-height: 6em;
     width: 100%;
 }
 
