@@ -354,7 +354,7 @@ footer:not(#contact-form-footer) {
 }
 
 footer p {
-    color: #ccc;
+    color: #fff;
     text-align: center;
     font-size: 110%;
     padding-top: 20px;
@@ -381,7 +381,7 @@ footer p {
 .social-links i {
     font-size: 160%;
     margin: 1%;
-    color: #ccc;
+    color: #fff;
 }
 
 /* Contact Form & Thank You Page */

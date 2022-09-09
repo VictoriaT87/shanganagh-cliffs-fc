@@ -135,6 +135,20 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
+## Design
+
+### Colour Scheme
+ -   The colour scheme is all designed around the colors of the team and their logo. The team uses red, black and white. I found these colours worked very well for contrasting each other throughout the site. Both the header and footer are black, with white text. The buttons on the site (back to the top and the submit button on the form), use the red color to stand out and catch the users attention that it is something they can interact with.
+![Color Scheme](assets/documentation/color-scheme.png)
+
+### Typography
+ -   The font chosen for the website is a san-serif font called Ubuntu. This was picked because it has good clarity on both desktop and mobile screens. The font was found on [Google Font](https://fonts.google.com/specimen/Ubuntu) and imported to the website with a CSS import.
+
+### Wireframe
+ - On advice from my Mentor, my first step in creating the website was to create a wireframe using [Balsamiq](https://balsamiq.com/). Below is the image.
+ ![Balsamiq Wireframe](assets/documentation/wireframe.png)
+<br>
+
 # Technologies
 
 ## Languages Used
@@ -159,6 +173,7 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Stack Overflow](https://stackoverflow.com/)
+* [Favicon.io](https://favicon.io/)
 
 <br>
 
