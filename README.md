@@ -268,8 +268,9 @@ The live link can be found here - https://victoriat87.github.io/shanganagh-cliff
 - Hamburger menu code was a written with code from [MakeUseOf.com](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/), [bloom-dan on CodePen.io](https://codepen.io/bloom-dan/pen/vKdoaM) and my fellow student [Sean Johnson](https://code-institute-room.slack.com/U03790U1LAV).
 - Back to the Top Button from [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 - Form CSS was adapted from [The Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
-- The drone image was taken by JP Traynor, my brother. He gave his permission for the image to be used in this project.
-- All other images were used with thanks to Anne Traynor, my mother, who set up Shanganagh Cliffs F.C. - the images were all taken by her within the first few years of the start of the SCFC community project.
+- The drone image of the pitch on the Contact Form was taken by JP Traynor, my brother. He gave his permission for the image to be used in this project.
+- All other images were used with thanks to Anne Traynor, my mother, who started Shanganagh Cliffs F.C. as part of her Community Work - the images were all taken by her within the first few years of the start of the SCFC community project.
+- Table data for the League Table was populated from [The A.U.L. website](http://www.aul.ie/competition.aspx?oid=1001&id=1291#.Yxttw3bMKUk)
 
 <br>
 
