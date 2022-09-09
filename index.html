@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Data -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,20 @@
     <meta name="keywords" content="Shanganagh, Cliffs, Shankill, Football, SCFC, AUL, football club">
     <meta name="author" content="Victoria Traynor">
 
+    <!-- CSS Link -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Website Title -->
     <title>Shanganagh Cliffs Football Club</title>
 </head>
 
 <body>
-
+    <!-- Back to Top Button from W3Schools -->
     <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
 
+    <!-- Begin Header -->
     <header>
 
-
+        <!-- Begin Navbar -->
         <nav class="navbar">
             <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
@@ -37,6 +41,7 @@
             </ul>
         </nav>
 
+        <!-- Header Image and Text -->
         <div id="header-center">
             <a href="index.html">
                 <img src="assets/images/logo.webp" alt="Shanganagh Cliffs Football Club Crest" id="logo-image" />
@@ -46,24 +51,36 @@
         </div>
 
     </header>
+    <!-- End Header -->
 
+    <!-- Begin Main Section -->
     <main>
 
+        <!-- Hero Image Section -->
         <section id="hero-container">
-            <div id="hero-image" title="A photo of the 2022 Shanagangh Football team in their full kits"></div>
+
+            <div id="hero-image" title="A photo of the 2022 Shanagangh Football team in their full kits">
+            </div>
+
+            <!-- Cover Text on Hero Image -->
             <div id="cover-text">
                 <h2>
                     "We are Shanganagh"
                 </h2>
                 <h3>Open for applications for the 2022 season!</h3>
             </div>
-        </section>
 
+        </section>
+        <!-- End Hero Image Section -->
+
+        <!-- Wrapper -->
         <div id="wrapper">
 
+            <!-- Begin About Section -->
             <section id="about">
                 <h2>Welcome to SCFC, the home of Shanganagh Cliffs Football Club, part of the A.U.L. 3A Division. </h2>
 
+                <!-- Flex Container for About -->
                 <div id="flex-container-about">
                     <div id="about-image">
                         <img src="assets/images/pitch-crest.webp"
@@ -96,12 +113,15 @@
                     </div>
 
                 </div>
+                <!-- End Flex Container for About -->
             </section>
 
+            <!-- Begin News Section -->
             <section id="news">
 
                 <h2>Latest News</h2>
 
+                <!-- Flex Container for News -->
                 <div class="flex-container-news">
 
                     <div>
@@ -121,12 +141,14 @@
 
                     <div id="cabin-image"
                         title="The Shanganagh Crest made of wood, hung on the wall of a dressing room cabin">
-                        <img src="assets/images/cabin.jpg" alt="Shanganagh Cliffs wooden crest hung on the wall of a cabin">
+                        <img src="assets/images/cabin.jpg"
+                            alt="Shanganagh Cliffs wooden crest hung on the wall of a cabin">
                     </div>
 
                 </div>
+                <!-- End Flex Container for News -->
 
-
+                <!-- Flex Container for News -->
                 <div class="flex-container-news">
 
                     <div id="awards-image">
@@ -158,13 +180,15 @@
                     </div>
 
                 </div>
-
+                <!-- End Flex Container for News -->
             </section>
+            <!-- End News Section -->
 
-
+            <!-- Begin Fixtures Section -->
             <section id="fixtures">
                 <h2>Fixtures</h2>
 
+                <!-- Flex Container for Fixtures -->
                 <div id="flex-container-fixtures">
 
                     <div id="fixtures-text-items">
@@ -204,12 +228,16 @@
                     </div>
 
                 </div>
-
+                <!-- End Flex Container for Fixtures -->
             </section>
+            <!-- End Fixtures Section -->
 
+            <!-- Begin League Table Section -->
             <section id="league-table">
                 <h2>Current League Table</h2>
+                <!-- Flex Container for League Table -->
                 <div id="table-flex-container">
+                    <!-- Begin Desktop version of League Table -->
                     <table>
                         <thead>
                             <tr>
@@ -270,8 +298,11 @@
                             </tr>
                         </tbody>
                     </table>
+                    <!-- End Desktop version of League Table -->
                 </div>
+                <!-- End Flex Container for League Table -->
 
+                <!-- Begin Mobile version of League Table -->
                 <div id="mobile-league-table">
                     <ol>
                         <li>Valley Park United</li>
@@ -281,13 +312,18 @@
                         <li>Raheny United</li>
                     </ol>
                 </div>
-            </section>
+                <!-- End Mobile version of League Table -->
 
+            </section>
+            <!-- End League Table Section -->
         </div>
 
     </main>
+    <!-- End Main Section -->
 
+    <!-- Begin Footer -->
     <footer>
+        <!-- Begin Social Links List -->
         <ul class="social-links">
             <li>
                 <a href="tel:+353123456789" target="_blank" rel="noopener"
@@ -317,17 +353,19 @@
                 </a>
             </li>
         </ul>
+        <!-- End Social Links List -->
 
         <hr>
 
         <p>Shanganagh Cliffs Football Club by Victoria Traynor ©2022</p>
     </footer>
+    <!-- End Footer -->
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 
+    <!-- Back to Top button javascript from W3Schools -->
     <script>
-        /* Back to Top button */
         mybutton = document.getElementById("top-button");
 
         window.onscroll = function () {
