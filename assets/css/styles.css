@@ -226,10 +226,6 @@ input[type=checkbox] {
     align-items: stretch;
 }
 
-#awards-image {
-    max-width: 350px;
-}
-
 .flex-container-news p {
     font-size: 120%;
     line-height: 1.5em;
