@@ -263,9 +263,19 @@ The live link can be found here - https://victoriat87.github.io/shanganagh-cliff
 
 # Credits and Sources
 
-1. Website was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-1. The Football Trophy image in the News Section, is taken from [Unsplash.com](https://unsplash.com/photos/exqr-l9rr94?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) by photographer [Darque Kj](https://unsplash.com/@darquekj).
-2. Hamburger menu code was a written with code from [MakeUseOf.com](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/), [bloom-dan on CodePen.io](https://codepen.io/bloom-dan/pen/vKdoaM) and my fellow student [Sean Johnson](https://code-institute-room.slack.com/U03790U1LAV).
-3. Back to the Top Button from [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
-4. Form CSS was adapted from [The Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
-5. Answers to most of my questions and issues were solved when I searched on [Stack Overflow](https://stackoverflow.com/).
+- Website was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+- The Football Trophy image in the News Section, is taken from [Unsplash.com](https://unsplash.com/photos/exqr-l9rr94?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) by photographer [Darque Kj](https://unsplash.com/@darquekj).
+- Hamburger menu code was a written with code from [MakeUseOf.com](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/), [bloom-dan on CodePen.io](https://codepen.io/bloom-dan/pen/vKdoaM) and my fellow student [Sean Johnson](https://code-institute-room.slack.com/U03790U1LAV).
+- Back to the Top Button from [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+- Form CSS was adapted from [The Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- The drone image was taken by JP Traynor, my brother. He gave his permission for the image to be used in this project.
+- All other images were used with thanks to Anne Traynor, my mother, who set up Shanganagh Cliffs F.C. - the images were all taken by her within the first few years of the start of the SCFC community project.
+
+<br>
+
+# Acknowledgements
+- To my amazing boyfriend Thomas. For listening to me worry about this project for months, for editing the Contact Form background image to look extra beautiful, and for keeping me sane. 
+- My brother JP for all his QA work on the website and for the beautiful drone shot of the football pitch.
+- My family and my cats for keeping my stress levels under control!
+- My Mentor [Jubril Akolade](https://github.com/Jubrillionaire) for all the help and for pointing me towards Flexbox. His help and guidance was invaluable.
+- Sean Finn and Sean Johnston, my fellow classmates on Slack. Your help with my many questions was super appreciated, thank you.
