@@ -181,7 +181,8 @@ input[type=checkbox] {
 }
 
 #about-image img {
-    min-width: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 #about-text h3 {
@@ -237,6 +238,16 @@ input[type=checkbox] {
 
 #news p {
     line-height: 30px;
+}
+
+#awards-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#cabin-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
@@ -386,7 +397,8 @@ footer p {
 
 /* Contact Form & Thank You Page */
 
-#form, #thank-you {
+#form,
+#thank-you {
     clear: left;
     background-image: url('../images/pitch-green.webp');
     background-size: cover;
@@ -394,7 +406,8 @@ footer p {
     height: 900px;
 }
 
-.contact-form, #thank-you-text {
+.contact-form,
+#thank-you-text {
     margin: auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
