@@ -207,6 +207,14 @@ The main goal of the website is to encourage more fans/members of the local comm
 
  ![Lighthouse Contact Page](assets/documentation/lighthouse-contact.png) 
 
+ <br>
+
+ - Best Practices was set at a 92 for each page. Reading the error, it was coming from the site.webmanifest used in the Favicon. Researching this lead me to understand that I needed to add crossorigin="use-credentials" to this link tag. This corrected all the errors and returned 100 across all pages in Lighthouse.
+
+![Lighthouse Error](assets/documentation/lighthouse-error.png) 
+
+<br>
+
 ### Other Testing
  - The website has been tested across various screen sizes, using the Chrome DevTools responsive device section and by opening the website on Firefox, Chrome, 3 various sized Android phones (Huawei P20 Lite, OnePlus 9 Pro, Samsung Galaxy S20) and an Android tablet (Samsung Galaxy Tab A8). 
 
