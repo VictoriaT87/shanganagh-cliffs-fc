@@ -195,10 +195,11 @@ The main goal of the website is to encourage more fans/members of the local comm
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Lighthouse Testing
- - When first tested, performance for the website was at 88. The recommendations from Lighthouse for this issue was to change certain images from .jpg to .webp. To do this, I used the website [WEBP Converter](https://cloudconvert.com/webp-converter). After running Lighthouse again, this changed to a 98.
+ - When first tested, performance for the website was at 88. The recommendations from Lighthouse for this issue was to change images from .jpg to .webp. To do this, I used the website [WEBP Converter](https://cloudconvert.com/webp-converter). After running Lighthouse again, this changed to a 99.
  - The other recommendations Lighthouse gave me to speed up performance, was to do with the caching of images. I tried to research this issue but it was to do with the configuration of the server, and adding "Cache-Control" to the server header. As I don't have access to this, I could not change it.
 
  ![Lighthouse Report](assets/documentation/lighthouse.png)
+ ![Lighthouse Metrics](assets/documentation/lighthouse-metrics.png)
 
 ### Other Testing
  - The website has been tested across various screen sizes, using the Chrome DevTools responsive device section and by opening the website on Firefox, Chrome, 3 various sized Android phones (Huawei P20 Lite, OnePlus 9 Pro, Samsung Galaxy S20) and an Android tablet (Samsung Galaxy Tab A8). 
