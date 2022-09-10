@@ -142,7 +142,6 @@ input[type=checkbox] {
     position: absolute;
     top: 70%;
     left: 0;
-    /* transform: translate(-50%, -50%); */
     color: #fff;
     text-align: center;
     font-size: 130%;
@@ -254,7 +253,7 @@ hr {
     padding: 10px;
 }
 
-/* Fixtures section and Flex Conyainer */
+/* Fixtures section and Flex Container */
 
 #flex-container-fixtures {
     display: flex;
@@ -532,7 +531,7 @@ iframe {
     color: #e52323;
 }
 
-/* Back to Top button */
+/* Back to Top button - code from W3Schools */
 
 #top-button {
     display: none;
