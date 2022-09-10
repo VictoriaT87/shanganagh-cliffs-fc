@@ -113,11 +113,10 @@ input[type=checkbox] {
 .hamburger {
     display: none;
     position: absolute;
+    font-size: 1.5em;
     color: #fff;
     top: 18px;
     left: 25px;
-    height: 27px;
-    width: 27px;
     cursor: pointer;
     transition: all 1s cubic-bezier(.19, 1, .22, 1);
 }
