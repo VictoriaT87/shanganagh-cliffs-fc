@@ -142,6 +142,10 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 # User Experience (UX)
 
 ## Site Goals
@@ -187,6 +191,11 @@ The main goal of the website is to encourage more fans/members of the local comm
 ### Wireframe
  - On advice from my Mentor, my first step in creating the website was to create a wireframe using [Balsamiq](https://balsamiq.com/). Below is the image.
  ![Balsamiq Wireframe](assets/documentation/wireframe.png)
+
+<br>
+
+[Back to Top](#table-of-contents)
+
 <br>
 
 # Technologies
@@ -215,6 +224,10 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Favicon.io](https://favicon.io/)
+
+<br>
+
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -278,6 +291,10 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 # Bugs Found and Fixed
 - Originally, I was using divs, positioning and floats to layout all content. However, when resizing, I ran into major issues with how the content positioned itself. After discussing with my Mentor, he advised me to learn and use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) elements instead.
 
@@ -298,6 +315,10 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 # Credits and Sources
 
 - Website was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template)
@@ -310,6 +331,10 @@ The main goal of the website is to encourage more fans/members of the local comm
 - The drone image of the pitch on the Contact Form was taken by JP Traynor, my brother. He gave his permission for the image to be used in this project.
 - All other images were used with thanks to Anne Traynor, my mother, who started Shanganagh Cliffs F.C. as part of her Community Work - the images were all taken by her within the first few years of the start of the SCFC community project.
 - Table data for the League Table was populated from [The A.U.L. website](http://www.aul.ie/competition.aspx?oid=1001&id=1291#.Yxttw3bMKUk)
+
+<br>
+
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -328,9 +353,17 @@ The live link can be found here - https://victoriat87.github.io/shanganagh-cliff
 
 <br>
 
+[Back to Top](#table-of-contents)
+
+<br>
+
 # Acknowledgements
 - To my amazing boyfriend Thomas. For listening to me worry about this project for months, for editing the Contact Form background image to look extra beautiful, and for keeping me sane. 
 - My brother JP for all his QA work on the website and for the beautiful drone shot of the football pitch.
 - My family and my cats for keeping my stress levels under control!
 - My Mentor [Jubril Akolade](https://github.com/Jubrillionaire) for all the help and for pointing me towards Flexbox. His help and guidance was invaluable.
 - Sean Finn and Sean Johnston, my fellow classmates on Slack. Your help with my many questions was super appreciated, thank you.
+
+<br>
+
+[Back to Top](#table-of-contents)
