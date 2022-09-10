@@ -201,6 +201,10 @@ The main goal of the website is to encourage more fans/members of the local comm
  ![Lighthouse Report](assets/documentation/lighthouse.png)
  ![Lighthouse Metrics](assets/documentation/lighthouse-metrics.png)
 
+ <br>
+
+ - Lighthouse was also used on the Contact Page. The lowest figure on this report was a 97 for accessibility. This is to do with the embedded Google Map. 
+
 ### Other Testing
  - The website has been tested across various screen sizes, using the Chrome DevTools responsive device section and by opening the website on Firefox, Chrome, 3 various sized Android phones (Huawei P20 Lite, OnePlus 9 Pro, Samsung Galaxy S20) and an Android tablet (Samsung Galaxy Tab A8). 
 
