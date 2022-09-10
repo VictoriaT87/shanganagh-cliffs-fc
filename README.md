@@ -8,11 +8,43 @@ The website also has a contact form which will allow local businesses to get in 
 
 [Live link to The Shanganagh Cliffs Football Club Website](https://victoriat87.github.io/shanganagh-cliffs-fc/)
 
+<br>
+
+# Table of Contents
+
+1. [Features](#features)  
+    * [Navigation Bar](#navigation-bar)
+    * [Header](#header)
+    * [Landing Page](#landing-page)
+    * [About Section](#about-section)
+    * [Latest News Section](#latest-news-section)
+    * [Fixtures Section](#fixtures-section)
+    * [League Table](#league-table)
+    * [The Footer](#the-footer)
+    * [The Contact Page](#the-contact-page)
+    * [Features Left To Implement](#features-left-to-implement)
+2. [User Experience (UX)](#user-experience-ux)
+    * [Site Goals](#site-goals)
+    * [User Stories](#user-stories)
+    * [Design](#design)
+3. [Technologies](#technologies)
+    * [Languages Used](#languages-used)
+    * [Libraries And Frameworks](#libraries-and-frameworks)
+    * [Tools and Resources](#tools-and-resources)
+4. [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Lighthouse Testing](#lighthouse-testing)
+    * [Other Testing](#other-testing)
+5. [Bugs Found and Fixed](#bugs-found-and-fixed)
+6. [Credits And Sources](#credits-and-sources)
+7. [Deployment](#deployment)
+8. [Acknowledgements](#acknowledgements)
+
 # Features 
 
 ## Existing Features
 
-- __Navigation Bar__
+### Navigation Bar
 
   - Featured on both the main index page and the contact form page, the full responsive navigation bar includes links to each section of the Home page -  the Logo, About, News, Fixtures and the current League Table - as well as to the separate Contact Form page. This allows for easy navigation across the site.
   - Connected to the Navigation bar is a "Return to Top" button. This will show to the bottom right of the screen when the user scrolls below the header and allows the user to easily return to the Navigation menu with one button. 
@@ -30,7 +62,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-- __Header__
+### Header
 
   - The fully responsive header consists of the navigation bar, as well as the club's logo and text of the club's name.
   - The image and text will scale down for each screen size, making sure the header never takes up too much space on mobile.
@@ -40,16 +72,16 @@ The website also has a contact form which will allow local businesses to get in 
   
   <br>
 
-- __Hero Image__
+### Landing Page
 
-  - The landing includes a photograph of the full team with a text overlay announcing that submissions are open to join the team for the next year. 
+  - The landing includes a Hero Image of the full team with a text overlay announcing that submissions are open to join the team for the next year. 
   - This section introduces the user to the Shanganagh Cliffs Football team. It also lets the user know that they can join the team and shows off their full kit and prominent sponsorship, to entice local businesses to sponsor the team. 
 
 ![Landing Page](assets/documentation/landing-page.png)
 
 <br>
 
-- __About Section__
+### About Section
 
   - The About section informs the user of how the club began, how long it's been running, the League and Division the football team is in and how to apply to join the team.
   - This user will see that the club is a successful local team, who has won a Division Championship, and that the team consists of local men from the community. This will hopefully encourage new people to join. 
@@ -58,7 +90,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-- __Latest News section__
+### Latest News section
 
   - This section will allow the user to see all the latest news from the football club, including images from events, meetups and matches.
   - This section will be updated with the latest news from the club. The amount of subsections within the Latest News section can be updated to allow as much information as possible to be shown to the user. 
@@ -67,7 +99,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-- __Fixtures Section__ 
+### Fixtures Section
 
   - The Fixtures section will show the user the latest upcoming match fixtures for the team, including the location, time and date of the next 4 matches. As each match is played on a Saturday, this should cover each month.
   - The Fixtures section is extremely valuable to fans of the club, who will know when a local match is being played, as well as matches that some users may want to travel to to show their support.
@@ -76,14 +108,14 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-- __League Table__ 
+### League Table
 
   - The League Table section consists of a HTML table with columns and rows outlining the current standings, games played, goals for/against and the goal difference, as well as the points each team has.
   - Having the current table is very important for a user who is a fan of the team. Knowing the team's current position, along with the upcoming fixtures, can help a user understand better how well the team is playing and will encourage support.
 
 ![League Table](assets/documentation/league-table.png)
 
-- __The Footer__ 
+### The Footer
 
   - The Footer section includes social media links and contact links in the form of a phone number and email address.
   - The links within the footer will allow the user direct buttons to follow the team on their social platforms and to easily get in touch with the management team for any other questions or queries.
@@ -92,7 +124,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 <br>
 
-- __The Contact Page__
+### The Contact Page
 
   - This page allows the user to contact the team in regards to signing up, to apply for Sponsorship of the kit or for general queries. 
   - Featuring a large background image of an overhead drone shot of the pitch that the club plays on with the contact form overlaying it, the page is striking for the user to look at.
@@ -164,11 +196,11 @@ The main goal of the website is to encourage more fans/members of the local comm
 * [CSS](https://www.w3schools.com/css/)
 * [JavaScript](https://www.w3schools.com/js/)
 
-## Libraries & Frameworks
+## Libraries And Frameworks
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 
-## Tools & Resources
+## Tools And Resources
 * [GitPod](https://www.gitpod.io/)
 * [GitHub](https://github.com/)
 * [ReadMe Template](https://github.com/Code-Institute-Solutions/readme-template)
@@ -259,20 +291,10 @@ The main goal of the website is to encourage more fans/members of the local comm
 ![Fixtures Overflow](assets/documentation/fixtures-overflow.jpg)
 ![League Table Overflow](assets/documentation/league-table-overflow.jpg)
 
-<br>
+- Errors returned by Lighthouse when testing the Contact Form page, showed me that there was something wrong with the site.webmanifest link in the Head. This link was automatically generated by [Favicon.io](https://favicon.io/) along with my favicon images. When looking up information about this error, I came across an atricle on [Medium.com from Aurélien Delogu](https://medium.com/@aurelien.delogu/401-error-on-a-webmanifest-file-cb9e3678b9f3) which showed me what the error was and how to fix it. The solution was to add "crossorigin="use-credentials" on the link tag.
+![Lighthouse Error](assets/documentation/lighthouse-error.png)
 
-# Deployment
-
-The following are the steps I went through to deploy my live site:
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab on the top menu.
-  - From the settings page, navigate to the Pages section from the left hand side menu.
-  - From the source section drop-down menu, select "Deploy From a Branch"
-  - Press the save button.
-  - After a few minutes, you can refresh the page to see your Live Site link at the top.
-
-The live link can be found here - https://victoriat87.github.io/shanganagh-cliffs-fc/
+- Another Lighthouse error on the Contact Page was about the iFrame that contained my embedded Google Map. This HTML was auto-generated by Google and added to my website, however the error was telling me it needed a title. I tried to read some information on the Google Map website but found none. I eventually found a website called [Deque University](https://dequeuniversity.com/rules/axe/4.4/frame-title) which explained that for screen readers to be able to identify this iFrame, it needed a title attribute added to the iFrame html.
 
 <br>
 
@@ -288,6 +310,21 @@ The live link can be found here - https://victoriat87.github.io/shanganagh-cliff
 - The drone image of the pitch on the Contact Form was taken by JP Traynor, my brother. He gave his permission for the image to be used in this project.
 - All other images were used with thanks to Anne Traynor, my mother, who started Shanganagh Cliffs F.C. as part of her Community Work - the images were all taken by her within the first few years of the start of the SCFC community project.
 - Table data for the League Table was populated from [The A.U.L. website](http://www.aul.ie/competition.aspx?oid=1001&id=1291#.Yxttw3bMKUk)
+
+<br>
+
+# Deployment
+
+The following are the steps I went through to deploy my live site:
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab on the top menu.
+  - From the settings page, navigate to the Pages section from the left hand side menu.
+  - From the source section drop-down menu, select "Deploy From a Branch"
+  - Press the save button.
+  - After a few minutes, you can refresh the page to see your Live Site link at the top.
+
+The live link can be found here - https://victoriat87.github.io/shanganagh-cliffs-fc/
 
 <br>
 
