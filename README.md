@@ -203,7 +203,9 @@ The main goal of the website is to encourage more fans/members of the local comm
 
  <br>
 
- - Lighthouse was also used on the Contact Page. The lowest figure on this report was a 97 for accessibility. This is to do with the embedded Google Map. 
+ - Lighthouse was also used on the Contact Page. When first tested, this gave an Accessibility rating of 97. The reason given for this was because the iFrame for the embedded Google Map did not have a title. This was added and the report returned 100.
+
+ ![Lighthouse Contact Page](assets/documentation/lighthouse-contact.png) 
 
 ### Other Testing
  - The website has been tested across various screen sizes, using the Chrome DevTools responsive device section and by opening the website on Firefox, Chrome, 3 various sized Android phones (Huawei P20 Lite, OnePlus 9 Pro, Samsung Galaxy S20) and an Android tablet (Samsung Galaxy Tab A8). 
