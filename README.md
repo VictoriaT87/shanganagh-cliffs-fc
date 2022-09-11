@@ -315,6 +315,13 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 <br>
 
+## Bugs Not Fixed
+
+- The logo.webp image inside the Flexbox for Fixtures, gives an arror in Lighthouse as not having a width and height attribute. This did originally have the width and height, as that same image does in the Header, however it then lowered my Lighthouse "Best Practices" score to 92, as it was giving me the error "Image display dimensions should match natural aspect ratio". I think this has to do with the width of teh flexbox element itself. I tried to give the div both a larger and smaller percentage of the Flex container, however neither of these fixed the issue. I decided that the Lighthouse warning "Image elements do not have explicit width and height" was the best option, as it give me a Lighthouse score of 98, 100, 100, 100.
+
+![Lighthouse Error](assets/documentation/lighthouse-image-error.png)
+
+<br>
 
 [Back to Top](#table-of-contents)
 
