@@ -258,6 +258,11 @@ The main goal of the website is to encourage more fans/members of the local comm
 
 ![Lighthouse Error](assets/documentation/lighthouse-error.png) 
 
+ <br>
+
+ - A Lighthouse report was generated for the mobile version of the website as well.
+
+![Lighthouse Error](assets/documentation/lighthouse-mobile.png) 
 <br>
 
 ### Other Testing
