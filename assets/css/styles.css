@@ -388,6 +388,10 @@ footer p {
     color: #fff;
 }
 
+.social-links i:hover {
+    color: #e52323;
+}
+
 /* Contact Form & Thank You Page */
 
 #form,
