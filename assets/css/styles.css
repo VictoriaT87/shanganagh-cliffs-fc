@@ -271,7 +271,7 @@ hr {
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .fixtures-teams {
@@ -303,11 +303,6 @@ hr {
 #fixtures-image {
     display: flex;
     width: 15%;
-}
-
-#fixtures-image img {
-    max-height: 20em;
-    min-width: 0;
 }
 
 /* League Table*/
