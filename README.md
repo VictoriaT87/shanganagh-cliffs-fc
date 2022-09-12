@@ -36,6 +36,7 @@ The website also has a contact form which will allow local businesses to get in 
     * [Lighthouse Testing](#lighthouse-testing)
     * [Other Testing](#other-testing)
 5. [Bugs Found and Fixed](#bugs-found-and-fixed)
+    * [Bugs Not Fixed](#bugs-not-fixed)
 6. [Credits And Sources](#credits-and-sources)
 7. [Deployment](#deployment)
 8. [Acknowledgements](#acknowledgements)
@@ -263,6 +264,7 @@ The main goal of the website is to encourage more fans/members of the local comm
  - Report on mobile, when the hero image was present, gave an 82 performance score. This was to do with a Large Contentful Paint - the loading of the image. I decided to remove it from mobile versions.
 
 ![Lighthouse Error](assets/documentation/mobile-performance.png)
+![Lighthouse Error](assets/documentation/mobile-report.png)
 
 <br>
 
@@ -322,6 +324,14 @@ The main goal of the website is to encourage more fans/members of the local comm
 - The logo.webp image inside the Flexbox for Fixtures, was giving an arror in Lighthouse as not having a width and height attribute. This did originally have the width and height, as the same image does in the Header, however it then lowered my Lighthouse "Best Practices" score to 92, as it was giving me the error "Image display dimensions should match natural aspect ratio". I thought this had to do with the width of the flexbox element itself. I tried to give the div both a larger and smaller percentage of the Flex container, however neither of these fixed the issue. I then realised I had given the image itself some CSS attributes with min-height. When this was removed, the error resolved.
 
 ![Lighthouse Error](assets/documentation/lighthouse-image-error.png)
+
+<br>
+
+# Bugs Not Fixed
+
+ - Report on mobile, when the hero-image was present, gave an 82 performance score. This was to do with a Large Contentful Paint - the loading of the image. At first, my research lead me to believe I needed to add a pre-load to the header, so the image was loaded at a high priority. This however, only pushed the performance up to an 87. I then tried to resize the hero-image, so it would not take as much time to load but again, this didn't help the performance. In the end, I decided to just remove the image from displaying on mobile.
+
+![Lighthouse Error](assets/documentation/mobile-performance.png)
 
 <br>
 
