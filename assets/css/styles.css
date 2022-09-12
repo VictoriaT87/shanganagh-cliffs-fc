@@ -723,6 +723,10 @@ iframe {
         flex-direction: column;
     }
 
+    #news p {
+        padding: 10px;
+    }
+
 
     .flex-container-news div {
         width: 100%;
