@@ -4,7 +4,7 @@ Welcome to the Shanganagh Cliffs Football Club website! This site has been creat
 
 The website also has a contact form which will allow local businesses to get in touch with a chance to sponsor the club - a very important feature for local clubs which still rely on money paid in by the players for travel and kit expenses.
 
-![Website responsiveness on multiple screen sizes](assets/documentation/responsive-screenshot.png)
+![Website responsiveness on multiple screen sizes](assets/documentation/responsive.png)
 
 [Live link to The Shanganagh Cliffs Football Club Website](https://victoriat87.github.io/shanganagh-cliffs-fc/)
 
@@ -149,7 +149,7 @@ The website also has a contact form which will allow local businesses to get in 
 # User Experience (UX)
 
 ## Site Goals
-The main goal of the website is to encourage more fans/members of the local community to learn more about how Shanganagh Cliffs was founded (as a community project with friends) and to let users know when and where the next matches will be played, to allow them to come and support the team.
+The main goal of the website is to encourage more fans/members of the local community to learn more about how Shanganagh Cliffs was founded and to let users know when and where the next matches will be played, to allow them to come and support the team.
 
 ## User Stories
 
@@ -189,7 +189,7 @@ The main goal of the website is to encourage more fans/members of the local comm
  -   The font chosen for the website is a san-serif font called Ubuntu. This was picked because it has good clarity on both desktop and mobile screens. The font was found on [Google Font](https://fonts.google.com/specimen/Ubuntu) and imported to the website with a CSS import.
 
 ### Wireframe
- - On advice from my Mentor, my first step in creating the website was to create a wireframe using [Balsamiq](https://balsamiq.com/). Below is the image.
+ - My first step in creating the website was to create a wireframe using [Balsamiq](https://balsamiq.com/). Below is the image.
  ![Balsamiq Wireframe](assets/documentation/wireframe.png)
 
 <br>
