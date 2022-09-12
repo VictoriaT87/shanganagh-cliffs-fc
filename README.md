@@ -276,23 +276,37 @@ The main goal of the website is to encourage more fans/members of the local comm
  - Huawei P20 Lite Vertical 
 ![Huawei Vertical](assets/documentation/huawei-vertical.jpg)
 
+<br>
+
 - Huawei P20 Lite Horizontal
 ![Huawei Horizontal](assets/documentation/huawei-horizontal.jpg)
+
+<br>
 
 - Samsung Tab A8 Vertical
 ![Samsung Tab A8 Vertical](assets/documentation/samsung-tab-vertical.png)
 
+<br>
+
 - Samsung Tab A8 Horizontal
 ![Samsung Tab A8 Horizontal](assets/documentation/samsung-tab-horizontal.png)
+
+<br>
 
 - One Plus 9 Pro Horizontal
 ![One Plus 9 Pro Vertical](assets/documentation/one-plus-vertical.jpg)
 
+<br>
+
 - One Plus 9 Pro Horizontal
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-horizontal.jpg)
 
+<br>
+
 - One Plus 9 Pro Vertical Hamburger Menu
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-hamburger.jpg) 
+
+<br>
 
 - One Plus 9 Pro Vertical Fixtures Section
 ![One Plus 9 Pro Horizontal](assets/documentation/one-plus-vertical-fixtures.jpg)
