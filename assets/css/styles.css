@@ -132,7 +132,7 @@ input[type=checkbox] {
 
 #hero-image {
     max-width: 100%;
-    height: 48em;
+    height: 100vh;
     background: url('../images/squad-main.webp') no-repeat center center;
     background-size: cover;
 }
@@ -213,7 +213,7 @@ input[type=checkbox] {
     border: 5px double #111111;
     margin-top: 30px;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .flex-container-news div {
@@ -573,7 +573,7 @@ iframe {
     }
 
     #about-image img {
-        height: 50vh;
+        height: 25em;
     }
 }
 
@@ -601,9 +601,6 @@ iframe {
         display: none;
     }
 
-    .flex-container-news {
-        flex-direction: column;
-    }
 
     #about-image {
         display: none;
@@ -712,6 +709,11 @@ iframe {
     #about {
         margin-top: 30px;
     }
+
+    .flex-container-news {
+        flex-direction: column;
+    }
+
 
     .flex-container-news div {
         width: 100%;
