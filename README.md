@@ -79,6 +79,7 @@ The website also has a contact form which will allow local businesses to get in 
   - This section introduces the user to the Shanganagh Cliffs Football team. It also lets the user know that they can join the team and shows off their full kit and prominent sponsorship, to entice local businesses to sponsor the team. 
 
 ![Landing Page](assets/documentation/landing-page.png)
+![Landing Page Mobile](assets/documentation/head-about-mobile.png)
 
 <br>
 
@@ -97,6 +98,7 @@ The website also has a contact form which will allow local businesses to get in 
   - This section will be updated with the latest news from the club. The amount of subsections within the Latest News section can be updated to allow as much information as possible to be shown to the user. 
 
 ![Latest News](assets/documentation/news-section.png)
+![Latest News Mobile](assets/documentation/news-mobile.png)
 
 <br>
 
@@ -106,6 +108,7 @@ The website also has a contact form which will allow local businesses to get in 
   - The Fixtures section is extremely valuable to fans of the club, who will know when a local match is being played, as well as matches that some users may want to travel to to show their support.
 
 ![Fixtures Section](assets/documentation/fixtures-section.png)
+![Fixtures Mobile](assets/documentation/fixtures-mobile.png)
 
 <br>
 
@@ -115,6 +118,7 @@ The website also has a contact form which will allow local businesses to get in 
   - Having the current table is very important for a user who is a fan of the team. Knowing the team's current position, along with the upcoming fixtures, can help a user understand better how well the team is playing and will encourage support.
 
 ![League Table](assets/documentation/league-table.png)
+![League Table Mobile](assets/documentation/league-table-mobile.png)
 
 ### The Footer
 
@@ -133,6 +137,7 @@ The website also has a contact form which will allow local businesses to get in 
 
 ![Contact Page](assets/documentation/contact-page.png)
 ![Contact Page](assets/documentation/contact-page-map.png)
+![Contact Page Mobile](assets/documentation/contact-mobile.png)
 
 <br>
 
