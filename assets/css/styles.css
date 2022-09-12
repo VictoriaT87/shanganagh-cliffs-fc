@@ -126,7 +126,7 @@ input[type=checkbox] {
 #hero-container {
     position: relative;
     width: 100%;
-    max-height: 40em;
+    max-height: 100vh;
     overflow: hidden;
 }
 
@@ -553,6 +553,19 @@ iframe {
 
 /* Media Queries */
 
+/* For larger screens size from 1200px and up*/
+
+@media screen and (min-width: 1200px) {
+
+    .navbar {
+        font-size: 0.75em;
+    }
+
+    #hero-image {
+        height: 100vh;
+    }
+}
+
 /* For larger and medium screens size from 1200px and down*/
 
 @media screen and (max-width: 1200px) {
@@ -745,6 +758,10 @@ iframe {
 
     #header-center h1 {
         font-size: 120%;
+    }
+
+    #hero-image {
+        display: none;
     }
 
     #table-flex-container {

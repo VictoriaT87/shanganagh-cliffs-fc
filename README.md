@@ -260,6 +260,8 @@ The main goal of the website is to encourage more fans/members of the local comm
 
  <br>
 
+ - Report on mobile, when the hero image was added back in, instead of not displaying, gave an 83 performance score. This was to do with a Large Contentful Paint. My research lead me to realise I needed to add a link to the head to Preload the image. This code was taken from [Web.dev](https://web.dev/optimize-lcp/#:~:text=Largest%20Contentful%20Paint%20(LCP)%20is,is%20rendered%20within%20the%20viewport). 
+
  - A Lighthouse report was generated for the mobile version of the website as well.
 
 ![Lighthouse Error](assets/documentation/lighthouse-mobile.png) 
