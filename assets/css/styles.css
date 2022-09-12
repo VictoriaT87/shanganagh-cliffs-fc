@@ -601,6 +601,10 @@ iframe {
         display: none;
     }
 
+    .flex-container-news {
+        flex-direction: column;
+    }
+
     #about-image {
         display: none;
     }
@@ -702,16 +706,11 @@ iframe {
     }
 
     #hero-image {
-        display: none;
+        height: 300px;
     }
 
     #about {
         margin-top: 30px;
-    }
-
-    #cabin-image,
-    #awards-image {
-        display: none;
     }
 
     .flex-container-news div {
