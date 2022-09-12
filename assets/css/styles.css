@@ -557,10 +557,6 @@ iframe {
 
 @media screen and (min-width: 1200px) {
 
-    .navbar {
-        font-size: 0.75em;
-    }
-
     #hero-image {
         height: 100vh;
     }
